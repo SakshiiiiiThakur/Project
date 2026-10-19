@@ -1,0 +1,688 @@
+LABEL:Exam PCR Student Login
+URL:https://exampcr.unipune.ac.in/Student/Dashboard/LogintoSPS
+TITLE:Login
+DATE:2026-06-07T01:13:26.387168
+
+────────────────────────────────────────────────────────────
+
+M.A.(with Credits)-Distance Education-CBCS.2019-SEM Pattern
+M.Com.(with Credits) -Distance Education -CBCS.2019-SEM Pattern
+B.Com(with Credits) -Distance Education -CBCS.2019-SEM Pattern
+BACHELOR OF ARTS(with Credits)-Distance Education-CBCS.2019 Yearly Pattern
+B.A.(with Credits) -Distance Education -CBCS.2019 SEM Pattern
+Master of Commerce((NON-NEP to NEP 2019-2023 PATTERN)) Winter Session 2025
+Date is over
+Second Year MBA([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025
+Mental_Moral_Social_Science
+Bachelor of library & Information Science(2020 Pattern) Winter Session 2025
+Physical_Education
+First Year Master of Physical Education (M.P.Ed.) 2017 Pattern Winter Session 2025 -Program 125
+Second Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025
+Second Year MCA([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025
+Second Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT)([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025
+Second Year M.A.([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. Computer Science([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. MATHEMATICS([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. PHYSICS([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. PHYSICAL CHEMISTRY ([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. INORGANIC CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. ORGANIC CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. ANALYTICAL CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. BOTANY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. ZOOLOGY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. MICROBIOLOGY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. ELECTRONICS ([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+Second Year M.Sc. Computer Applications([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025
+First Year B.Ed. - Special Education (Hearing Impaired) (2025 PATTERN) Winter Sesion 2025 -Program 125
+FIRST YEAR B.Sc. (Data Science)(2024 Pattern) Winter Session 2025-Program 125
+First Year B. Sc. (Fashion Design) 2024 Pattern Winter Session 2025-Program 125
+First Year B.Sc. (Home Science) 2024 Pattern Winter Session 2025-Program 125
+FIRST YEAR B.Sc.(Information Technology) 2024 Pattern Winter Session 2025-Program 125
+First Year B.Sc. (Cyber Security) Winter Session 2025-Program 125
+First Year B.Sc. Degree Program in Wine, Brewing and Alcohol Technology Winter Session 2025-Program 125
+FIRST YEAR B.Sc. (Artificial Intelligence and Machine Learning)(2024 Pattern) Winter Session 2025-Program 125
+First Year Bachelor of Computer Applications (Commerce & Management)(2024 Pattern) Winter Session 2025
+Second Year Bachelor of Computer Applications (Commerce & Management)(2024 Pattern) Winter Session 2025
+First Year Bachelor of Computer Applications (Commerce & Management)(2025 Pattern) Winter Session 2025
+Second Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025
+First Year Master of Library & Information Science Winter Session 2025-Program 125
+Second Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025
+Second Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025
+Second Year BACHELOR OF COMMERCE((Non NEP to NEP 2020) (2019 Pattern to 2024 Pattern)) Winter Session 2025
+First Year Masters in Hotel Management and Catering Technology(2025 Pattern) Winter Session 2025-Program 125
+Second Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+FIRST YEAR Master of Computer Application (MCA) INTEGRATED Winter Session 2025-Program 125
+Second Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+Second Year BACHELOR OF SCIENCE([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025
+First Year M.A.(JOURNALISM AND MASS COMMUNICATION)((2025 Pattern(NEP 2020))) Winter Session 2025
+B.A. to B.A.(10 PAPERS) EXAM
+Second Year BACHELOR OF ARTS(Non NEP to NEP 2020)((2019 Pattern to 2024 Pattern)) Winter Session 2025
+B.A. to B.A.(4 PAPERS) ( Winter Session 2025)
+Engineering
+First Year M.ARCH. (ARCHITECTURAL CONSERVATION)(2019 PATTERN) Winter Session 2025 -Program 125
+First Year M.Arch(Construction Management)(2019 PATTERN) Winter Session 2025-Program 125
+FirstYear M.Arch.(Digital Architecture)(2019 PATTERN) Winter Session 2025-Program 125
+First Year M. ARCH (DESIGN AND PROJECT MANAGEMENT)(2019 PATTERN) Winter-Program 125 Session 2025
+First Year M.Arch (Environmental Architecture)(2019 PATTERN) Winter Session 2025-Program 125
+First Year M.Arch (Landscape Architecture)(2019 PATTERN) Winter Session 2025-Program 125
+First Year M.ARCH (URBAN DESIGN)(2019 PATTERN) Winter Session 2025-Program 125
+Second Year BACHELOR OF SCIENCE (ANIMATION)((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year M.A.((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year BEd(General Rev. 15)
+Second Year BEd(General Rev. 15)
+M.A.(School of open learning)Yearly Pattern
+M.B.A.(Rev-2021)(School of Open Learning) Semester Pattern
+BACHELOR OF COMMERCE (School of Open learning) Yearly Pattern
+Master OF COMMERCE (School of Open learning)Yearly Pattern
+First Year M.Pharm(2019 Pattern) Winter Session 2025 - Fresh
+First Year B.Pharmacy(2019 Pattern) Winter Session 2025 - Fresh
+First Year Bachelor of Business Administration (I.B.)(2024 Pattern)
+SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION (I.B.)(2024 PATTERN) WINTER SESSION 2025
+FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION (I.B.)(2025 PATTERN) WINTER SESSION 2025
+First Year M.Sc. ANALYTICAL CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc.BIO-CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025
+FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(2024 Pattern)
+SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION(2024 Pattern) Winter Session 2025
+FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(2025 Pattern) Winter Session 2025
+First Year Bachelor of Business Administration(COMP. APPLI.)(2024 Pattern)
+SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION(COMP. APPLI.)(2024 PATTERN) WINTER SESSION 2025
+FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(COMP. APPLI.)(2025 PATTERN) WINTER SESSION 2025
+First Year MA/M.Sc. GEOGRAPHY ((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT) ((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year Master of Computer Application (MCA)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year MBA (Fintech)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year MBA((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year MBA (Project Management)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year M.Sc. Computer Applications((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. ELECTRONICS ((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. BIOTECHNOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. MICROBIOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. BOTANY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. ZOOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. PHYSICS((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. PHYSICAL CHEMISTRY ((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. INORGANIC CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. ORGANIC CHEMISTRY(2025 Pattern (NEP 2020)) Winter Session 2025
+First Year M.Sc. Computer Science((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. MATHEMATICS((2025 Pattern (NEP 2020))) Winter Session 2025
+FIRST YEAR BACHELOR OF COMPUTER APPLICATIONS (SCIENCE)(2024 PATTERN (NEP 2020)
+Second Year Bachelor of Computer Applications (Science)((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year Bachelor of Computer Applications (Science)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year MED(CBCS)Pattern(2025) Winter Session 2025
+First Year BED(CBCS)Pattern(2025) Winter Session 2025
+First Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern) (6 Point Scale) Winter Session 2025
+First Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern)(10 Point Scale)
+First Year Master of Commerce((2025 Pattern) (NEP 2020)) Winter Session 2025
+FIRST YEAR BACHELOR OF COMMERCE (COMPUTER APPLICATION)(2024 Pattern(NEP 2020)) Mar-2025
+FIRST YEAR BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)(2024 Pattern(NEP 2020)) Mar-2025
+Second Year M.Pharm(2019 Pattern)
+FIRST YEAR BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)(2024 Pattern(NEP 2020))
+First Year MA((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year MA((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year M.A.(JOURNALISM AND MASS COMMUNICATION)(2024 Pattern(NEP 2020))
+FIRST YEAR BACHELOR OF ARTS(2024 Pattern(NEP 2020))
+First Year M.Sc.BIO-CHEMISTRY(2023 Pattern (NEP 2020))
+Second Year M.Sc.BIO-CHEMISTRY(2023 Pattern (NEP 2020))
+First Year BACHELOR OF COMMERCE((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((2025 Pattern(NEP 2020))) Winter Session 2025
+FIRST YEAR OF BACHELOR OF COMMERCE(2024 Pattern(NEP 2020))
+First Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((2025 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF COMMERCE((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((2024 Pattern(NEP 2020))) Winter Session 2025
+Third Year BscToBsc Winter Session 2025
+Second Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF SCIENCE((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF ARTS((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year BACHELOR OF ARTS((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year of B.A(2019 Pattern)
+Second Year B.Pharmacy(2019 Pattern) Winter Session 2025 - Fresh
+Second Year BACHELOR OF ARTS(2019 PATTERN)
+Third Year BACHELOR OF ARTS(2019 PATTERN) Winter Session 2025
+Final Year B.Arch(2019 Pattern) Winter Session 2025
+First Year B.ARCH.(2025 PATTERN) Winter Session 2025
+First Year MASTER OF COMPUTER APPLICATIONS (ENGG.)(2020 Pattern)
+Second Year MASTER OF COMPUTER APPLICATIONS (ENGG.)(2020 Pattern)
+First Year Master of Computer Applications(Under Engineering)(2025 Pattern) Winter Session 2025
+M.E.(CIVIL) (STRUCTURE ENGINEERING) (2017 PATTERN)
+M.E. Second Year (2017 Pattern) Winter Session-2025
+M.E.MECHANICAL (DESIGN ENGINEERING) (2017 PATTERN)
+M.E. First Year Master of Engineering(2025 Pattern) Winter Session 2025
+FIRST YEAR BACHELOR OF SCIENCE (COMPUTER APPLICATION)((PATT. 2024))
+First Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)((2025 Pattern(NEP 2020))) Winter Session 2025
+Second Year M.A./M.Sc. in Statistics(2019 Pattern) Winter Session 2025
+First Year M.A./M.Sc. STATISTICS(2024 PATTERN (NEP 2020))
+Second Year M.A./M.Sc. STATISTICS(2024 PATTERN (NEP 2020)) Winter Session 2025
+First Year M.A./M.Sc. STATISTICS((2025 Pattern (NEP 2020))) Winter Session 2025
+FIRST YEAR B. Sc. (Animation)(Rev.2021)
+FIRST YEAR OF BACHELOR OF COMPUTER APPLICATIONS (SCIENCE) (2019)
+First Year MCom(2019 Pattern) Winter Session 2025
+Second Year MCom(2019 Pattern) Winter Session 2025
+First Year BACHELOR OF SCIENCE (ANIMATION)((2025 Pattern(NEP 2020))) Winter Session 2025
+Second Year Bachelor of Computer Applications (Science)(PATT. 2019) Winter Session 2025
+Third Year Bachelor of Computer Applications (Science)(PATT. 2019) Winter Session 2025
+B. Arch. (Rev 2019)(First Year)
+SECOND YEAR BACHELOR OF ARCHITECTURE(REV.2019)
+THIRD YEAR BACHELOR OF ARCHITECTURE(REV.2019)
+FOURTH YEAR BACHELOR OF ARCHITECTURE(REV.2019)
+M.E.ELECTRONICS & TELECOMMUNICATION (SIGNAL PROCESSING) (2017 PATTERN)
+M.E.ELECTRONICS & TELECOMMUNICATION (COMMUNICATION NETWORK) (2017 PATTERN)
+M.E. ELECTRICAL (POWER ELECTRONICS AND DRIVES)(2025 Pattern) Winter Session 2025
+M.E. ENVIRONMENTAL ENGINEERING - CHEMICAL(2025 Pattern) Winter Session 2025
+M.E. INTERNET OF THINGS (2025 Pattern) Winter Session 2025
+M.E. ELECTRICAL (ELECTRICAL ENGINEERING)(2025 Pattern) Winter Session 2025
+M.E. INFORMATION TECHNOLOGY(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS (DIGITAL SYSTEMS)(2025 Pattern) Winter Session 2025
+M.E. CIVIL (STRUCTURES)(2025 Pattern) Winter Session 2025
+M.E. ELECTRICAL (POWER SYSTEMS)(2025 Pattern) Winter Session 2025
+M.E. CIVIL (ENVIRONMENTAL ENGINEERING)(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS AND TELECOMMUNICATION ENGINEERING (COMMUNICATION NETWORKS)(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS & TELECOMMUNICATION (SIGNAL PROCESSING)(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS & COMMUNICATION (VLSI DESIGN)(2025 Pattern) Winter Session 2025
+M.E. CIVIL ENGINEERING (CONSTRUCTION MANAGEMENT)(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS & TELECOMMUNICATION (VLSI & EMBEDDED SYSTEMS)(2025 Pattern) Winter Session 2025
+M.E. ELECTRONICS & COMMUNICATION (VLSI & EMBEDDED SYSTEMS)(2025 Pattern) Winter Session 2025
+M.E. MECHANICAL (DESIGN ENGINEERING)(2025 Pattern) Winter Session 2025
+M.E. MECHANICAL (AUTOMATION AND ROBOTICS)(2025 Pattern) Winter Session 2025
+M.E. MECHANICAL ENGINEERING (HEAT POWER ENGINEERING)(2025 Pattern) Winter Session 2025
+M.E. COMPUTER ENGINEERING(2025 Pattern) Winter Session 2025
+M.E. ARTIFICIAL INTELLIGENCE AND DATA SCIENCE (AI&DS)(2025 Pattern) Winter Session 2025
+M.E. ARTIFICIAL INTELLIGENCE (AI)(2025 Pattern) Winter Session 2025
+M.E. DATA SCIENCE(2025 Pattern) Winter Session 2025
+M.E. INSTRUMENTATION AND CONTROL ENGINEERING (PROCESS INSTRUMENTATION)(2025 Pattern) Winter Session 2025
+M.E. MECHANICAL (COMPUTER AIDED DESIGN, MANUFACTURE & ENGINEERING)(2025 Pattern) Winter Session 2025
+M.E. MECHATRONICS(2025 Pattern) Winter Session 2025
+M.E. MECHANICAL (ROBOTICS AND AUTOMATION)(2025 Pattern) Winter Session 2025
+F.E.(2024 Credit Pattern)
+FIRST YEAR ENGINEERING((2025 Pattern (NEP 2020))) Winter Session 2025
+S.E.(2019 PAT.)(CIVIL)
+S.E.(2019 PAT.)(MECHANICAL)
+S.E.(2019 PAT.)(PRODUCTION ENGINEERING )
+S.E.(2019 PAT.)(ELECTRICAL)
+S.E.(2019 PAT.)(ELECTRONICS &TELECOM)
+S.E.(2019 PAT.)(INSTRUMENTATION)
+S.E.(2019 PAT.)(COMPUTER)
+S.E.(2019 PAT.)(CHEMICAL)
+S.E.(2019 PAT.)(PRINTING ENGINEERING AND GRAPHIC COMMUNICATION )
+S.E.(2019 PAT.)(MECHANICAL SANDWICH)
+S.E.(2019 PAT.)(COMPUTER SCIENCE )
+S.E.(2019 PAT.)(ELECTRONICS & COMMUNICATION-ADVANCED COMMUNICATION TECHNOLOGY)
+S.E.(2019 PAT.)(ELECTRONICS ENGINEERING(VLSI DESIGN & TECHNOLOGY))
+S.E.(2019 PAT.)(COMPUTER SCIENCE & ENGINEERING(DATA SCIENCE))
+S.E.(2019 PAT.)(PRODUCTION ENGINEERING (SANDWICH) )
+S.E.(2019 PAT.)(INFORMATIOM TECHNOLOGY)
+S.E.(2019 PAT.)(B.TECH. BIOTECHNOLOGY )
+S.E.(2019 PAT.)(AUTOMOBILE)
+S.E.(2019 PAT.)(AUTOMATION & ROBOTICS ENGINEERING)
+S.E.(2019 PAT.)(ARTIFICIAL INTELLIGENCE & DATA SCIENCE)
+S.E.(2019 PAT.)(ARTIFICIAL INTELLIGENCE & MACHINE LEARNING)
+S.E.(2019 PAT.)(ELECTRONICS & COMPUTER)
+S.E.(2019 PAT.)(MECHATRONICS ENGINEERING)
+S.E.(2019 PAT.)(ROBOTICS & AUTOMATION(RA))
+S.E.(2019 PAT.)(Computer Science And Design)
+S.E.(2024 Pattern) Civil Engineering
+S.E.(2024 Pattern) Mechanical Engineering
+S.E.(2024 Pattern) Electrical Engineering
+S.E.(2024 Pattern) Electronics and Telecommunication Engineering
+S.E.(2024 Pattern) Instrumentation and Control Engineering
+S.E.(2024 Pattern) Computer Engineering
+S.E.(2024 Pattern) Chemical Engineering
+S.E.(2024 Pattern) Information Technology
+S.E.(2024 Pattern) Automobile Engineering
+S.E.(2024 Pattern) B.Tech. Biotechnology
+S.E.(2024 Pattern) Mechanical Engineering (Sandwich)
+S.E.(2024 Pattern) AUTOMATION & ROBOTICS ENGINEERING
+S.E.(2024 Pattern) Artificial Intelligence and Data Science
+S.E.(2024 Pattern) Artificial Intelligence and Machine Learning
+S.E.(2024 Pattern) Electronics and Computer Engineering
+S.E.(2024 Pattern) Mechatronics Engineering
+S.E.(2024 Pattern) Robotics and Automation Engineering
+S.E.(2024 Pattern) Computer Science and Design (CSD)
+S.E.(2024 Pattern) Computer Science
+S.E.(2024 Pattern) Electronics and Communication Engineering (Advanced Communication Technology)
+S.E.(2024 Pattern) Electronics Engineering- VLSI Design and Technology
+S.E.(2024 Pattern) Printing & Packaging Technology
+S.E.(2024 Pattern) Internet of Things
+S.E.(2024 Pattern) Robotics and Artificial Intelligence
+S.E.(2024 Pattern) Computer Science and Engineering (Artificial Intelligence)
+S.E.(2024 Pattern) Computer Science and Engineering
+T.E.(2019 PAT.)(CIVIL)
+T.E.(2019 PAT.)(MECHANICAL)
+T.E.(2019 PAT.)(PRODUCTION ENGINEERING )
+T.E.(2019 PAT.)(AUTOMOBILE)
+T.E.(2019 PAT.)(ELECTRICAL)
+T.E.(2019 PAT.)(ELECTRONICS & TELECOM)
+T.E.(2019 PAT.)ELECTRONICS)
+T.E.(2019 PAT.)(INSTRUMENTATION & CONTROL)
+T.E.(2019 PAT.)(Computer Science)
+T.E.(2019 PAT.)(COMPUTER)
+T.E.(2019 PAT.)(CHEMICAL)
+T.E.(2019 PAT.)(Computer Science and Engineering (Data Science))
+T.E.(2019 PAT.)(Electronics Engineering (VLSI Design and Technology))
+T.E.(2019 PAT.)(Electronics & Communication Engineering (Advanced Communication Technology))
+T.E.(2019 PAT.)(PRINTING ENGINEERING AND GRAPHIC COMMUNICATION )
+T.E.(2019 PAT.)(MECHANICAL SANDWICH)
+T.E.(2019 PAT.)(PRODUCTION ENGINEERING (SANDWICH) )
+T.E.(2019 PAT.)(INFORMATION TECHNOLOGY)
+T.E.(2019 PAT.)(B.TECH. BIOTECHNOLOGY )
+T.E.(2019 PAT.)(Electronics and Computer Engineering)
+T.E.(2019 PAT.)(Mechatronics Engineering)
+T.E.(2019 PAT.)(Robotics and Automation Engineering)
+T.E. Artificial Intelligence and Data Science (2019)
+T.E.Artificial Intelligence and Machine Learning (2019)
+T.E. Automation and Robotics (2019 Pattern)
+T.E.(2019 PAT.)(Computer Science & Design)
+B.E.(2019 PAT.)(CIVIL)
+B.E.(2019 PAT.)(MECHANICAL)
+B.E.(2019 PAT.)(AUTOMOBILE)
+B.E.(2019 PAT.)(ELECTRICAL)
+B.E.(2019 PAT.)(ELECTRONICS &TELECOM)
+B.E.(2019 PAT.)(ELECTRONICS)
+B.E.(2019 PAT.)(INSTRUMENTATION & Control)
+B.E.(2019 PAT.)(COMPUTER)
+B.E.(2019 PAT.)(CHEMICAL)
+B.E.(2019 PAT.)(MECHANICAL SANDWICH)
+B.E.(2019 PAT.)(Electronics and Computer Engineering)
+B.E.(2019 PAT.)(Mechatronics Engineering)
+B.E.(2019 PAT.)(Robotics and Automation Engineering)
+B.E.(2019 PAT.)( Artificial Intelligence and Data Science)
+B.E.(2019 PAT.)(Artificial Intelligence and Machine Learning)
+B.E.(2019 PAT.) (Automation and Robotics)
+B.E.(2019 PAT.) (COMPUTER SCIENCE & DESIGN)
+B.E.(2019 PAT.)(INFORMATIOM TECHNOLOGY)
+B.E. (2019 PAT.)(PRINTING TECHNOLOGY)
+B.E. (2019 PAT.)(Biotechnology Engineering)
+B.E. (2019 PAT.)(PRODUCTION ENGINEERING )
+B.E. (2019 PAT.)(PRODUCTION ENGINEERING (SANDWICH))
+Second Year BACHELOR OF SCIENCE((REV. 2019))
+Third Year BACHELOR OF SCIENCE((REV. 2019)) Winter Session 2025
+FIRST YEAR BACHELOR OF SCIENCE (2024 Pattern (NEP 2020)) Oct-2025
+First Year of B. Sc. (REV 2019)
+Second Year BACHELOR OF SCIENCE (ANIMATION)((PATT. 2021)) Winter Session 2025
+Third Year BACHELOR OF SCIENCE (ANIMATION)((PATT. 2021)) Winter Session 2025
+FIRST YEAR B. Sc. (Animation)(Rev.2024)
+Second Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)((PATT. 2019)) Winter Session 2025
+Third Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)((PATT. 2019)) Winter Session 2025
+FIRST YEAR OF BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE) 2024 Pattern
+First Year BACHELOR OF SCIENCE((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)((2025 Pattern(NEP 2020))) Winter Session 2025
+FIRST YEAR B. Sc. ( Computer Science)(Rev.2019)
+First Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)((2025 Pattern(NEP 2020))) Winter Session 2025
+FIRST YEAR OF BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)
+FIRST YEAR B.B.A.(Rev 2019)
+First Year Bachelor of Business Administration (I.B.) (2019 Pattern)
+Second Year Bachelor of Business Administration (I.B.) (2019 Pattern)
+Third Year Bachelor of Business Administration (I.B.) (2019 Pattern) Winter Session 2025
+First Year M.Sc. ENVIRONMENTAL SCIENCE(2019 Pattern) Winter Session 2025
+Second Year M.Sc. ENVIRONMENTAL SCIENCE(2019 Pattern) Winter Session 2025
+First Year M.Sc. ENVIRONMENTAL SCIENCE(2023 Pattern (NEP 2020))
+Second Year M.Sc. ENVIRONMENTAL SCIENCE(2023 Pattern (NEP 2020))
+First Year M.Sc. ENVIRONMENTAL SCIENCE((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc. ELECTRONICS(2023 Pattern (NEP 2020))
+Second Year M.Sc. ELECTRONICS(2023 Pattern (NEP 2020))
+First Year M.A./M.Sc. STATISTICS(2023 PATTERN (NEP 2020))
+Second Year M.A./M.Sc. STATISTICS(2023 PATTERN (NEP 2020))
+First Year M.Sc. BIOTECHNOLOGY(2023 Pattern (NEP 2020))
+Secod Year M.Sc. BIOTECHNOLOGY(2023 Pattern (NEP 2020))
+First Year M.Sc. MICROBIOLOGY(2019 Pattern) Winter Session 2025
+Second Year M.Sc. MICROBIOLOGY(2019 Pattern) Winter Session 2025
+First Year M.Sc. MICROBIOLOGY(2023 Pattern (NEP 2020))
+Second Year M.Sc. MICROBIOLOGY(2023 Pattern (NEP 2020))
+Second Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)((REV. 2019)) Winter Session 2025
+Third Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)((REV. 2019)) Winter Session 2025
+FIRST YEAR BACHELOR OF SCIENCE (COMPUTER SCIENCE)((PATT. 2024))
+Second Year M.A.(JOURNALISM AND MASS COMMUNICATION)((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year M.Sc. DRUG CHEMISTRY(2023 Pattern (NEP 2020))
+Second Year M.Sc. DRUG CHEMISTRY(2023 Pattern (NEP 2020))
+Second Year M.Sc. BOTANY(2019 Pattern) Winter Session 2025
+First Year M.Sc. BOTANY(2023 Pattern (NEP 2020))
+Second Year M.Sc. BOTANY(2023 Pattern (NEP 2020))
+First Year M.Sc. GEOGRAPHY(2019 Pattern) Winter Session 2025
+Second Year M.Sc. GEOGRAPHY(2019 Pattern) Winter Session 2025
+First Year MA/M.Sc. GEOGRAPHY (2023 PATTERN (NEP 2020))
+Second Year MA/M.Sc. GEOGRAPHY (2023 PATTERN (NEP 2020))
+First Year M.Sc.Zoology(2019 Pattern) Winter Session 2025
+Second Year M.Sc.Zoology(2019 Pattern) Winter Session 2025
+First Year M.Sc. ZOOLOGY(2023 PATTERN (NEP 2020))
+Second Year M.Sc. ZOOLOGY(2023 PATTERN (NEP 2020))
+First Year M.Sc. ZOOLOGY(2024 PATTERN (NEP 2020))
+Second Year M.Sc. ZOOLOGY(2024 PATTERN (NEP 2020)) Winter Session 2025
+First Year M.Sc. ANALYTICAL CHEMISTRY(2019 Pattern) Winter Session 2025
+Second Year M.Sc. ANALYTICAL CHEMISTRY(2019 Pattern) Winter Session 2025
+First Year M.Sc. ANALYTICAL CHEMISTRY(2023 PATTERN (NEP 2020))
+Second Year M.Sc. ANALYTICAL CHEMISTRY(2023 PATTERN (NEP 2020))
+First Year M.Sc.ORGANIC CHEMISTRY(2019 Pattern) Winter Session 2025
+Second Year M.Sc.ORGANIC CHEMISTRY(2019 Pattern) Winter Session 2025
+First Year M.Sc. ORGANIC CHEMISTRY(2023 Pattern (NEP 2020))
+Second Year M.Sc. ORGANIC CHEMISTRY(2023 Pattern (NEP 2020))
+First Year M.Sc. INORGANIC CHEMISTRY(2019 Pattern) Winter Session 2025
+Second Year M.Sc. INORGANIC CHEMISTRY(2019 Pattern) Winter Session 2025
+First Year M.Sc. INORGANIC CHEMISTRY(2023 Pattern (NEP 2020))
+Second Year M.Sc. INORGANIC CHEMISTRY(2023 Pattern (NEP 2020))
+First Year M.Sc. PHYSICAL CHEMISTRY(2019 Pattern) Winter Session 2025
+Second Year M.Sc. PHYSICAL CHEMISTRY(2019 Pattern) Winter Session 2025
+First Year M.Sc. PHYSICAL CHEMISTRY (2023 Pattern (NEP 2020))
+Second Year M.Sc. PHYSICAL CHEMISTRY (2023 Pattern (NEP 2020))
+First Year MA(2019 Credit Pattern) Winter Session 2025
+Second Year MA(2019 Credit Pattern) Winter Session 2025
+First Year MASTER OF EDUCATION (GENERAL)(REV.2016) Winter Session 2025
+Second Year MASTER OF EDUCATION (GENERAL)(REV.2016) Winter Session 2025
+Second Year M.A.(JOURNALISM AND MASS COMMUNICATION) (REV.2019)
+First Year M.A.(2023 Pattern (NEP 2020))
+Second Year M.A.(2023 Pattern (NEP 2020))
+First Year M.Sc. PHYSICS(2020 Pattern) Winter Session 2025
+Second Year M.Sc. PHYSICS(2020 Pattern) Winter Session 2025
+First Year M.Sc. PHYSICS(2023 PATTERN (NEP 2020))
+Second Year M.Sc. PHYSICS(2023 PATTERN (NEP 2020))
+First Year M.Sc. MATHEMATICS(2019 Pattern) Winter Session 2025
+Second Year M.Sc. MATHEMATICS(2019 Pattern) Winter Session 2025
+First Year M.Sc. MATHEMATICS(2023 Pattern (NEP 2020))
+Second Year M.Sc. MATHEMATICS(2023 Pattern (NEP 2020))
+First Year M.Sc.(IMCA)(2023 Pattern (NEP 2020))
+Second Year M.Sc.(IMCA)(2023 Pattern (NEP 2020))
+First Year M.Sc.(IMCA)((2025 Pattern (NEP 2020))) Winter Session 2025
+First Year M.Sc.(Computer Science)(2019 Pattern) Winter Session 2025
+Second Year M.Sc.(Computer Science)(2019 Pattern) Winter Session 2025
+First Year M.Sc. Computer Science(2023 Pattern (NEP 2020))
+Second Year M.Sc. Computer Science(2023 Pattern (NEP 2020))
+Second Year BACHELOR OF COMMERCE (CHOICE BASED CREDIT SYSTEM)(2019 Pattern)
+Third Year BACHELOR OF COMMERCE (CHOICE BASED CREDIT SYSTEM)(2019 Pattern)
+First Year of B.Com.(2019 Pattern)
+First Year Master of Commerce(2023 Pattern (NEP 2020))
+Second Year Master of Commerce(2023 Pattern (NEP 2020))
+Second Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)((REV. 2019)) Winter Session 2025
+Third Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)((REV. 2019)) Winter Session 2025
+FIRST YEAR BACHELOR OF SCIENCE (BIOTECHNOLOGY)((PATT. 2024))
+First Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)((2025 Pattern(NEP 2020))) Winter Session 2025
+FIRST YEAR OF BACHELOR OF SCIENCE (BIOTECHNOLOGY) (REV.2019)
+First Year B.Pharmacy(2019 Pattern)
+First Year Doctor Of Pharmacy
+Second Year Doctor Of Pharmacy
+Third Year Doctor Of Pharmacy
+FOURTH YEAR B.PHARMACY 2018 PATTERN
+SECOND YEAR B.PHARMACY 2019 PATTERN
+THIRD YEAR B.PHARMACY 2019 PATTERN
+FOURTH YEAR B.PHARMACY 2019 PATTERN
+First Year of M.Pharmacy. (Rev.2019)
+FIRST YEAR BACHELOR OF HOTEL MGNT. & CATERING TECH.(BHMCT)(2019 Pattern)
+SECOND YEAR BACHELOR OF HOTEL MGNT. & CATERING TECH.(BHMCT)(2019 Pattern)
+THIRD YEAR BACHELOR OF HOTEL MGNT. & CATERING TECH.(BHMCT)(2019 Pattern)
+FOURTH YEAR BACHELOR OF HOTEL MGNT. & CATERING TECH.(BHMCT)(2019 Pattern)
+First Year Bachelors in Hotel Management and Catering Technology((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year LLM(2014 Pattern) Winter Session 2025
+Second Year LLM(2014 Pattern) Winter Session 2025
+First Year LLM(2025 Pattern) Winter Session 2025
+Bachelor of library & Information Science(2024 Pattern(NEP 2020))
+First Year M.B.A.(Digital Marketing) Winter Session 2025
+Second Year M.B.A.(DIGITAL MARKETING)
+First Year MBA (Digital Marketing)((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MBA (Digital Marketing)((2024 Pattern(NEP 2020))) Winter Session 2025
+First year M.B.A.(Fintech) Winter Session 2025
+Second Year M.B.A.(Fintech) Winter Session 2025
+First Year MBA (Fintech)((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MBA (Fintech)((2024 Pattern(NEP 2020))) Winter Session 2025
+FIRST YEAR MASTER OF BUSINESS ADMINISTRATION (SERVICES MANAGEMENT)
+SECOND YEAR MASTER OF BUSINESS ADMINISTRATION (SERVICES MANAGEMENT)
+First Year M.B.A.(PROJECT MANAGEMENT)
+Second Year M.B.A.(PROJECT MANAGEMENT)
+First Year MBA (Project Management)((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MBA (Project Management)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year Bachelor of Business Administration(COMP. APPLI.)(2019 Pattern) Winter Session 2025
+Third Year Bachelor of Business Administration(COMP. APPLI.)(2019 Pattern) Winter Session 2025
+First Year BBA (COMP.APPLICATION)(Rev 2019)
+Second Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern) (6 Point Scale)
+First Year M.C.A. (Management-2020)
+Second Year M.C.A. (Management-2020)
+First Year Master of Computer Application (MCA)((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year Master of Computer Application (MCA)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)((REV. 19)) Winter Session 2025
+Third Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)((REV. 19)) Winter Session 2025
+FIRST YEAR BACHELOR OF SCIENCE (HOSPITALITY STUDIES)((PATT. 2024))
+Second Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)((2025 Pattern(NEP 2020))) Winter Session 2025
+First Year of BSc. HS (Rev.19)
+First Year MASTER OF BUSINESS ADMINISTRATION (2019 REVISED)
+Second Year MASTER OF BUSINESS ADMINISTRATION (2019 REVISED)
+First Year MBA((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MBA((2024 Pattern(NEP 2020))) Winter Session 2025
+First Year M.B.A.(Human Resource Development)(Rev.2020)
+Second Year M.B.A.(Human Resource Development)(Rev.2020)
+First Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT) ((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT) ((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF BUSINESS ADMINISTRATION(2019 Pattern)
+Third Year BACHELOR OF BUSINESS ADMINISTRATION(2019 Pattern) Winter Session 2025
+First Year M.B.A.(Information Technology)(Rev.2020)
+Second Year M.B.A.(Information Technology)(Rev.2020)
+First Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)((2024 Pattern(NEP 2020))) Winter Session 2025 - Backlog
+Second Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)((2024 Pattern(NEP 2020))) Winter Session 2025
+Second Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern)(10 Point Scale)
+First Year LLB(2023 PATTERN)
+Second Year LLB(2023 PATTERN) Winter Session 2025
+Third Year LLB(2023 PATTERN) Winter Session 2025
+SECOND YEAR OF LL. B.(2017 PATTERN)
+THIRD (FINAL) YEAR OF LL. B.(2017 PATTERN)
+Second Year LLB(2017-2023 Mixed Pattern) - Winter Session 2025
+Third Year LLB(2017-2023 Mixed Pattern) - Winter Session 2025
+POST GRADUATE DIPLOMA IN BANKING & FINANCE (REV.2020)
+PGDCM(2022 Pattern) Winter Session 2025
+POST GRADUATE DIPLOMA IN HOSPITAL MANAGEMENT(2019 Pattern) Winter Session 2025
+Diploma Course in Cyber Laws
+Diploma in Taxation Laws (Rev - 2018)
+Diploma in Labour Laws and Labour Welfare
+Certificte Course in Forensic & Medical Jurisprudence
+Diploma Course in Intellectual Property Rights Laws
+First Year B.A.LL.B(2023 PATTERN)
+Second Year B.A.LL.B(2023 PATTERN) Winter Session 2025
+Third Year B.A.LL.B(2023 PATTERN) Winter Session 2025
+FIRST YEAR B.B.A.LL.B.(2023 Pattern) Winter Session 2025
+SECOND YEAR OF BA LLB.(Rev.2017)
+THIRD YEAR OF BA LLB.(Rev.2017)
+FOURTH YEAR OF BA LLB.(Rev.2017)
+FIFTH (FINAL) YEAR OF BA LLB.(Rev.2017)
+Second Year B.A.LL.B(2017-2023 MIXED PATTERN) Winter Session 2025
+Third Year B.A.LL.B(2017-2023 MIXED PATTERN) Winter Session 2025
+First Year M.Sc. Computer Applications(2020 Pattern) Winter Session 2025
+Second Year M.Sc. Computer Applications(2020 Pattern) Winter Session 2025
+First Year M.Sc. Computer Applications(2023 Pattern (NEP 2020))
+Second Year M.Sc. Computer Applications(2023 Pattern (NEP 2020))
+Master OF COMMERCE (School of Open learning)SEM Pattern October 2024
+M.A.(School of open learning)SEM Pattern December 2024
+B.A(School of Open Learning)SEM Pattern OCT-2024
+FIRST YEAR M.PHARM(2019 PATTERN) WINTER SESSION 2024
+Photocopy and Revaluation
+Faculty Name
+Pattern Name
+Result Date
+Instructions & Contact
+Photocopy Reval Circular (Circular No.188-2019 Ord.184A-B_02.082019) NEW
+
+────────────────────────────────────────────────────────────
+TABLES
+────────────────────────────────────────────────────────────
+Photocopy and Revaluation
+Login
+
+Sr.No. | Faculty Name | Pattern Name | Result Date | Start Date | End Date | Status
+1 | Arts | M.A.(with Credits)-Distance Education-CBCS.2019-SEM Pattern | 28/04/2026 | 01/06/2026 | 10/06/2026 | Active
+2 | Commerce | M.Com.(with Credits) -Distance Education -CBCS.2019-SEM Pattern | 28/04/2026 | 01/06/2026 | 10/06/2026 | Active
+3 | Commerce | B.Com(with Credits) -Distance Education -CBCS.2019-SEM Pattern | 28/04/2026 | 01/06/2026 | 10/06/2026 | Active
+4 | Arts | BACHELOR OF ARTS(with Credits)-Distance Education-CBCS.2019 Yearly Pattern | 17/04/2026 | 29/05/2026 | 07/06/2026 | Active
+5 | Arts | B.A.(with Credits) -Distance Education -CBCS.2019 SEM Pattern | 09/05/2026 | 29/05/2026 | 07/06/2026 | Active
+6 | Commerce | Master of Commerce((NON-NEP to NEP 2019-2023 PATTERN)) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+7 | Management | Second Year MBA([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+8 | Mental_Moral_Social_Science | Bachelor of library & Information Science(2020 Pattern) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+9 | Physical_Education | First Year Master of Physical Education (M.P.Ed.) 2017 Pattern Winter Session 2025 -Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+10 | Management | Second Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+11 | Management | Second Year MCA([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+12 | Management | Second Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT)([(NON-NEP) to NEP 2020-2024 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+13 | Arts | Second Year M.A.([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+14 | Science | Second Year M.Sc. Computer Science([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+15 | Science | Second Year M.Sc. MATHEMATICS([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+16 | Science | Second Year M.Sc. PHYSICS([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+17 | Science | Second Year M.Sc. PHYSICAL CHEMISTRY ([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+18 | Science | Second Year M.Sc. INORGANIC CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+19 | Science | Second Year M.Sc. ORGANIC CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+20 | Science | Second Year M.Sc. ANALYTICAL CHEMISTRY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+21 | Science | Second Year M.Sc. BOTANY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+22 | Science | Second Year M.Sc. ZOOLOGY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+23 | Science | Second Year M.Sc. MICROBIOLOGY([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+24 | Science | Second Year M.Sc. ELECTRONICS ([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+25 | Science | Second Year M.Sc. Computer Applications([(NON-NEP) to NEP 2019-2023 PATTERN)]) Winter Session 2025 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+26 | Physical_Education | First Year B.Ed. - Special Education (Hearing Impaired) (2025 PATTERN) Winter Sesion 2025 -Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+27 | Science | FIRST YEAR B.Sc. (Data Science)(2024 Pattern) Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+28 | Science | First Year B. Sc. (Fashion Design) 2024 Pattern Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+29 | Science | First Year B.Sc. (Home Science) 2024 Pattern Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+30 | Science | FIRST YEAR B.Sc.(Information Technology) 2024 Pattern Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+31 | Science | First Year B.Sc. (Cyber Security) Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+32 | Science | First Year B.Sc. Degree Program in Wine, Brewing and Alcohol Technology Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+33 | Science | FIRST YEAR B.Sc. (Artificial Intelligence and Machine Learning)(2024 Pattern) Winter Session 2025-Program 125 | 05/05/2026 | 19/05/2026 | 28/05/2026 | Date is over
+34 | Commerce | First Year Bachelor of Computer Applications (Commerce & Management)(2024 Pattern) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+35 | Commerce | Second Year Bachelor of Computer Applications (Commerce & Management)(2024 Pattern) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+36 | Commerce | First Year Bachelor of Computer Applications (Commerce & Management)(2025 Pattern) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+37 | Commerce | Second Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+38 | Mental_Moral_Social_Science | First Year Master of Library & Information Science Winter Session 2025-Program 125 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+39 | Commerce | Second Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+40 | Commerce | Second Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((NonNEP to NEP 2020)(2019 Pattern to 2024 Pattern)) Winter Session 2025 | 05/05/2026 | 11/05/2026 | 20/05/2026 | Date is over
+41 | Commerce | Second Year BACHELOR OF COMMERCE((Non NEP to NEP 2020) (2019 Pattern to 2024 Pattern)) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+42 | Management | First Year Masters in Hotel Management and Catering Technology(2025 Pattern) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+43 | Science | Second Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+44 | Science | Second Year BACHELOR OF SCIENCE (HOSPITALITY STUDIES)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+45 | Management | FIRST YEAR Master of Computer Application (MCA) INTEGRATED Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+46 | Science | Second Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+47 | Science | Second Year BACHELOR OF SCIENCE([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+48 | Science | Second Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+49 | Science | Second Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)([(NON-NEP) to NEP 2019-2024 PATTERN)]) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+50 | Mental_Moral_Social_Science | First Year M.A.(JOURNALISM AND MASS COMMUNICATION)((2025 Pattern(NEP 2020))) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+51 | Arts | B.A. to B.A.(10 PAPERS) EXAM | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+52 | Arts | Second Year BACHELOR OF ARTS(Non NEP to NEP 2020)((2019 Pattern to 2024 Pattern)) Winter Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+53 | Arts | B.A. to B.A.(4 PAPERS) ( Winter Session 2025) | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+54 | Engineering | First Year M.ARCH. (ARCHITECTURAL CONSERVATION)(2019 PATTERN) Winter Session 2025 -Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+55 | Engineering | First Year M.Arch(Construction Management)(2019 PATTERN) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+56 | Engineering | FirstYear M.Arch.(Digital Architecture)(2019 PATTERN) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+57 | Engineering | First Year M. ARCH (DESIGN AND PROJECT MANAGEMENT)(2019 PATTERN) Winter-Program 125 Session 2025 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+58 | Engineering | First Year M.Arch (Environmental Architecture)(2019 PATTERN) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+59 | Engineering | First Year M.Arch (Landscape Architecture)(2019 PATTERN) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+60 | Engineering | First Year M.ARCH (URBAN DESIGN)(2019 PATTERN) Winter Session 2025-Program 125 | 24/04/2026 | 30/04/2026 | 09/05/2026 | Date is over
+61 | Science | Second Year BACHELOR OF SCIENCE (ANIMATION)((2024 Pattern(NEP 2020))) Winter Session 2025 | 17/04/2026 | 23/04/2026 | 02/05/2026 | Date is over
+62 | Arts | First Year M.A.((2025 Pattern (NEP 2020))) Winter Session 2025 | 17/04/2026 | 23/04/2026 | 02/05/2026 | Date is over
+63 | Education | First Year BEd(General Rev. 15) | 17/04/2026 | 23/04/2026 | 02/05/2026 | Date is over
+64 | Education | Second Year BEd(General Rev. 15) | 17/04/2026 | 23/04/2026 | 02/05/2026 | Date is over
+65 | Arts | M.A.(School of open learning)Yearly Pattern | 23/03/2026 | 22/04/2026 | 02/05/2026 | Date is over
+66 | Management | M.B.A.(Rev-2021)(School of Open Learning) Semester Pattern | 10/04/2026 | 22/04/2026 | 02/05/2026 | Date is over
+67 | Commerce | BACHELOR OF COMMERCE (School of Open learning) Yearly Pattern | 02/04/2026 | 22/04/2026 | 02/05/2026 | Date is over
+68 | Commerce | Master OF COMMERCE (School of Open learning)Yearly Pattern | 23/03/2026 | 22/04/2026 | 02/05/2026 | Date is over
+69 | Pharmacy | First Year M.Pharm(2019 Pattern) Winter Session 2025 - Fresh | 10/04/2026 | 16/04/2026 | 25/04/2026 | Date is over
+70 | Pharmacy | First Year B.Pharmacy(2019 Pattern) Winter Session 2025 - Fresh | 10/04/2026 | 16/04/2026 | 25/04/2026 | Date is over
+71 | Commerce | First Year Bachelor of Business Administration (I.B.)(2024 Pattern) | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+72 | Commerce | SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION (I.B.)(2024 PATTERN) WINTER SESSION 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+73 | Commerce | FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION (I.B.)(2025 PATTERN) WINTER SESSION 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+74 | Science | First Year M.Sc. ANALYTICAL CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+75 | Science | First Year M.Sc.BIO-CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+76 | Commerce | FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(2024 Pattern) | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+77 | Commerce | SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION(2024 Pattern) Winter Session 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+78 | Commerce | FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(2025 Pattern) Winter Session 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+79 | Commerce | First Year Bachelor of Business Administration(COMP. APPLI.)(2024 Pattern) | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+80 | Commerce | SECOND YEAR BACHELOR OF BUSINESS ADMINISTRATION(COMP. APPLI.)(2024 PATTERN) WINTER SESSION 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+81 | Commerce | FIRST YEAR BACHELOR OF BUSINESS ADMINISTRATION(COMP. APPLI.)(2025 PATTERN) WINTER SESSION 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+82 | Science | First Year MA/M.Sc. GEOGRAPHY ((2025 Pattern (NEP 2020))) Winter Session 2025 | 09/04/2026 | 15/04/2026 | 24/04/2026 | Date is over
+83 | Management | First Year MASTER OF BUSINESS ADMINISTRATION (INFORMATION TECHNOLOGY)((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+84 | Management | First Year MASTER OF BUSINESS ADMINISTRATION (HUMAN RESOURCE DEVELOPMENT) ((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+85 | Management | First Year Master of Computer Application (MCA)((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+86 | Management | First Year MBA (Fintech)((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+87 | Management | First Year MBA((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+88 | Management | First Year MBA (Project Management)((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/04/2026 | 10/04/2026 | 19/04/2026 | Date is over
+89 | Science | First Year M.Sc. Computer Applications((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+90 | Science | First Year M.Sc. ELECTRONICS ((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+91 | Science | First Year M.Sc. BIOTECHNOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+92 | Science | First Year M.Sc. MICROBIOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+93 | Science | First Year M.Sc. BOTANY((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+94 | Science | First Year M.Sc. ZOOLOGY((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+95 | Science | First Year M.Sc. PHYSICS((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+96 | Science | First Year M.Sc. PHYSICAL CHEMISTRY ((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+97 | Science | First Year M.Sc. INORGANIC CHEMISTRY((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+98 | Science | First Year M.Sc. ORGANIC CHEMISTRY(2025 Pattern (NEP 2020)) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+99 | Science | First Year M.Sc. Computer Science((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+100 | Science | First Year M.Sc. MATHEMATICS((2025 Pattern (NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+101 | Science | FIRST YEAR BACHELOR OF COMPUTER APPLICATIONS (SCIENCE)(2024 PATTERN (NEP 2020) | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+102 | Science | Second Year Bachelor of Computer Applications (Science)((2024 Pattern(NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+103 | Science | First Year Bachelor of Computer Applications (Science)((2025 Pattern(NEP 2020))) Winter Session 2025 | 03/04/2026 | 09/04/2026 | 18/04/2026 | Date is over
+104 | Education | First Year MED(CBCS)Pattern(2025) Winter Session 2025 | 02/04/2026 | 08/04/2026 | 17/04/2026 | Date is over
+105 | Education | First Year BED(CBCS)Pattern(2025) Winter Session 2025 | 02/04/2026 | 08/04/2026 | 17/04/2026 | Date is over
+106 | Physical_Education | First Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern) (6 Point Scale) Winter Session 2025 | 02/04/2026 | 08/04/2026 | 17/04/2026 | Date is over
+107 | Physical_Education | First Year BACHELOR OF PHYSICAL EDUCATION(2015 Pattern)(10 Point Scale) | 02/04/2026 | 08/04/2026 | 17/04/2026 | Date is over
+108 | Commerce | First Year Master of Commerce((2025 Pattern) (NEP 2020)) Winter Session 2025 | 02/04/2026 | 08/04/2026 | 17/04/2026 | Date is over
+109 | Commerce | FIRST YEAR BACHELOR OF COMMERCE (COMPUTER APPLICATION)(2024 Pattern(NEP 2020)) Mar-2025 | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+110 | Commerce | FIRST YEAR BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)(2024 Pattern(NEP 2020)) Mar-2025 | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+111 | Pharmacy | Second Year M.Pharm(2019 Pattern) | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+112 | Commerce | FIRST YEAR BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)(2024 Pattern(NEP 2020)) | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+113 | Arts | First Year MA((2024 Pattern(NEP 2020))) Winter Session 2025 | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+114 | Arts | Second Year MA((2024 Pattern(NEP 2020))) Winter Session 2025 | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+115 | Mental_Moral_Social_Science | First Year M.A.(JOURNALISM AND MASS COMMUNICATION)(2024 Pattern(NEP 2020)) | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+116 | Arts | FIRST YEAR BACHELOR OF ARTS(2024 Pattern(NEP 2020)) | 28/03/2026 | 03/04/2026 | 12/04/2026 | Date is over
+117 | Science | First Year M.Sc.BIO-CHEMISTRY(2023 Pattern (NEP 2020)) | 24/03/2026 | 30/03/2026 | 08/04/2026 | Date is over
+118 | Science | Second Year M.Sc.BIO-CHEMISTRY(2023 Pattern (NEP 2020)) | 24/03/2026 | 30/03/2026 | 08/04/2026 | Date is over
+119 | Commerce | First Year BACHELOR OF COMMERCE((2025 Pattern(NEP 2020))) Winter Session 2025 | 23/03/2026 | 29/03/2026 | 07/04/2026 | Date is over
+120 | Commerce | First Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((2025 Pattern(NEP 2020))) Winter Session 2025 | 23/03/2026 | 29/03/2026 | 07/04/2026 | Date is over
+121 | Commerce | FIRST YEAR OF BACHELOR OF COMMERCE(2024 Pattern(NEP 2020)) | 23/03/2026 | 29/03/2026 | 07/04/2026 | Date is over
+122 | Commerce | First Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((2025 Pattern(NEP 2020))) Winter Session 2025 | 23/03/2026 | 29/03/2026 | 07/04/2026 | Date is over
+123 | Commerce | First Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((2025 Pattern(NEP 2020))) Winter Session 2025 | 23/03/2026 | 29/03/2026 | 07/04/2026 | Date is over
+124 | Commerce | Second Year BACHELOR OF COMMERCE (INTERNATIONAL BUSINESS)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+125 | Commerce | Second Year BACHELOR OF COMMERCE (COMPUTER APPLICATION)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+126 | Commerce | Second Year BACHELOR OF COMMERCE((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+127 | Commerce | Second Year BACHELOR OF COMMERCE (BUSINESS MANAGEMENT)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+128 | Science | Third Year BscToBsc Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+129 | Science | Second Year BACHELOR OF SCIENCE (CYBER & DIGITAL SCIENCE)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+130 | Science | Second Year BACHELOR OF SCIENCE (COMPUTER SCIENCE)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+131 | Science | Second Year BACHELOR OF SCIENCE((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+132 | Science | Second Year BACHELOR OF SCIENCE (BIOTECHNOLOGY)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+133 | Science | Second Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+134 | Arts | Second Year BACHELOR OF ARTS((2024 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+135 | Arts | First Year BACHELOR OF ARTS((2025 Pattern(NEP 2020))) Winter Session 2025 | 20/03/2026 | 26/03/2026 | 04/04/2026 | Date is over
+136 | Arts | First Year of B.A(2019 Pattern) | 29/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+137 | Pharmacy | Second Year B.Pharmacy(2019 Pattern) Winter Session 2025 - Fresh | 05/03/2026 | 01/04/2026 | 02/04/2026 | Date is over
+138 | Arts | Second Year BACHELOR OF ARTS(2019 PATTERN) | 23/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+139 | Arts | Third Year BACHELOR OF ARTS(2019 PATTERN) Winter Session 2025 | 23/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+140 | Engineering | Final Year B.Arch(2019 Pattern) Winter Session 2025 | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+141 | Engineering | First Year B.ARCH.(2025 PATTERN) Winter Session 2025 | 04/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+142 | Engineering | First Year MASTER OF COMPUTER APPLICATIONS (ENGG.)(2020 Pattern) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+143 | Engineering | Second Year MASTER OF COMPUTER APPLICATIONS (ENGG.)(2020 Pattern) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+144 | Engineering | First Year Master of Computer Applications(Under Engineering)(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+145 | Engineering | M.E.(CIVIL) (STRUCTURE ENGINEERING) (2017 PATTERN) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+146 | Engineering | M.E. Second Year (2017 Pattern) Winter Session-2025 | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+147 | Engineering | M.E.MECHANICAL (DESIGN ENGINEERING) (2017 PATTERN) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+148 | Engineering | M.E. First Year Master of Engineering(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+149 | Science | FIRST YEAR BACHELOR OF SCIENCE (COMPUTER APPLICATION)((PATT. 2024)) | 10/03/2026 | 01/04/2026 | 02/04/2026 | Date is over
+150 | Science | First Year BACHELOR OF SCIENCE (COMPUTER APPLICATION)((2025 Pattern(NEP 2020))) Winter Session 2025 | 10/03/2026 | 01/04/2026 | 02/04/2026 | Date is over
+151 | Science | Second Year M.A./M.Sc. in Statistics(2019 Pattern) Winter Session 2025 | 18/03/2026 | 24/03/2026 | 02/04/2026 | Date is over
+152 | Science | First Year M.A./M.Sc. STATISTICS(2024 PATTERN (NEP 2020)) | 20/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+153 | Science | Second Year M.A./M.Sc. STATISTICS(2024 PATTERN (NEP 2020)) Winter Session 2025 | 20/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+154 | Science | First Year M.A./M.Sc. STATISTICS((2025 Pattern (NEP 2020))) Winter Session 2025 | 23/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+155 | Science | FIRST YEAR B. Sc. (Animation)(Rev.2021) | 22/01/2025 | 01/04/2026 | 02/04/2026 | Date is over
+156 | Science | FIRST YEAR OF BACHELOR OF COMPUTER APPLICATIONS (SCIENCE) (2019) | 24/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+157 | Commerce | First Year MCom(2019 Pattern) Winter Session 2025 | 29/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+158 | Commerce | Second Year MCom(2019 Pattern) Winter Session 2025 | 29/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+159 | Science | First Year BACHELOR OF SCIENCE (ANIMATION)((2025 Pattern(NEP 2020))) Winter Session 2025 | 04/03/2026 | 01/04/2026 | 02/04/2026 | Date is over
+160 | Science | Second Year Bachelor of Computer Applications (Science)(PATT. 2019) Winter Session 2025 | 27/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+161 | Science | Third Year Bachelor of Computer Applications (Science)(PATT. 2019) Winter Session 2025 | 27/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+162 | Engineering | B. Arch. (Rev 2019)(First Year) | 29/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+163 | Engineering | SECOND YEAR BACHELOR OF ARCHITECTURE(REV.2019) | 24/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+164 | Engineering | THIRD YEAR BACHELOR OF ARCHITECTURE(REV.2019) | 24/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+165 | Engineering | FOURTH YEAR BACHELOR OF ARCHITECTURE(REV.2019) | 24/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+166 | Engineering | M.E.ELECTRONICS & TELECOMMUNICATION (SIGNAL PROCESSING) (2017 PATTERN) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+167 | Engineering | M.E.ELECTRONICS & TELECOMMUNICATION (COMMUNICATION NETWORK) (2017 PATTERN) | 12/01/2026 | 01/04/2026 | 02/04/2026 | Date is over
+168 | Engineering | M.E. ELECTRICAL (POWER ELECTRONICS AND DRIVES)(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+169 | Engineering | M.E. ENVIRONMENTAL ENGINEERING - CHEMICAL(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+170 | Engineering | M.E. INTERNET OF THINGS (2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+171 | Engineering | M.E. ELECTRICAL (ELECTRICAL ENGINEERING)(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+172 | Engineering | M.E. INFORMATION TECHNOLOGY(2025 Pattern) Winter Session 2025 | 28/02/2026 | 01/04/2026 | 02/04/2026 | Date is over
+173 |  |  |  |  |  | 
+
