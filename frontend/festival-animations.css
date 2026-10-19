@@ -1,0 +1,21 @@
+/* festival-animations.css — v7
+   All banner + canvas styles are injected by festival-scheduler.js
+   This file is intentionally minimal. */
+
+#festival-fx-canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+  /* behind header (z-index 998) */
+  opacity: 0.82;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #festival-fx-canvas {
+    display: none !important;
+  }
+}

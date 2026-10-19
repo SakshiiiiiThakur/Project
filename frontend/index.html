@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVPIT - Padmabhooshan Vasantdada Patil Institute of Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="festival-animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        // Auto-detect backend URL:
+        // - If served by Flask → same origin (window.location.origin)
+        // - If opened as a file → fall back to localhost:5000
+        window.BACKEND_URL = (window.location.protocol === "file:")
+            ? "http://localhost:5000"
+            : window.location.origin;
+    </script>
+    <style>
+        /* ══════════════════════════════════════════════════════
+       Events Gallery — public section
+    ══════════════════════════════════════════════════════ */
+        .events-gallery-section {
+            padding: 4rem 0;
+            background: #f7f9fc;
+        }
+
+        .eg-toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 1.5rem 0 2rem;
+        }
+
+        .eg-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .eg-filter-btn {
+            border: 1.5px solid #1565c0;
+            background: #fff;
+            color: #1565c0;
+            border-radius: 20px;
+            padding: 5px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .2s;
+        }
+
+        .eg-filter-btn.active,
+        .eg-filter-btn:hover {
+            background: #1565c0;
+            color: #fff;
+        }
+
+        .eg-search {
+            border: 1.5px solid #cdd3db;
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-size: 13px;
+            outline: none;
+            width: 200px;
+            transition: border-color .2s;
+        }
+
+        .eg-search:focus {
+            border-color: #1565c0;
+        }
+
+        .eg-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .eg-loading {
+            grid-column: 1/-1;
+            text-align: center;
+            padding: 3rem;
+            color: #8899aa;
+            font-size: 15px;
+        }
+
+        .eg-empty {
+            grid-column: 1/-1;
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #8899aa;
+        }
+
+        .eg-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform .2s, box-shadow .2s;
+        }
+
+        .eg-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 28px rgba(0, 0, 0, .14);
+        }
+
+        .eg-card-cover {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            display: block;
+            background: #e8edf5;
+        }
+
+        .eg-card-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #e8edf5, #d0daea);
+            font-size: 2.5rem;
+            color: #9daec4;
+        }
+
+        .eg-card-body {
+            padding: 14px 16px 16px;
+        }
+
+        .eg-cat-tag {
+            display: inline-block;
+            background: #e3f0ff;
+            color: #1565c0;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+        }
+
+        .eg-card-body h3 {
+            margin: 0 0 6px;
+            font-size: 16px;
+            color: #1a237e;
+        }
+
+        .eg-card-body p {
+            margin: 0 0 8px;
+            font-size: 13px;
+            color: #556;
+            line-height: 1.5;
+        }
+
+        .eg-card-meta {
+            font-size: 12px;
+            color: #8899aa;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        /* ── Events Slideshow ────────────────────────────────────────────────── */
+        .eg-slideshow {
+            position: relative;
+            width: 100%;
+            border-radius: 18px;
+            overflow: hidden;
+            margin-bottom: 2.5rem;
+            background: #0d1b2a;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, .18);
+            display: none;
+            /* shown only when events load */
+        }
+
+        .eg-slideshow.visible {
+            display: block;
+        }
+
+        .eg-slides-track {
+            display: flex;
+            transition: transform 0.6s cubic-bezier(.77, 0, .18, 1);
+            will-change: transform;
+        }
+
+        .eg-slide {
+            min-width: 100%;
+            position: relative;
+        }
+
+        .eg-slide-img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+            opacity: .85;
+        }
+
+        .eg-slide-placeholder {
+            width: 100%;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            background: linear-gradient(135deg, #1a237e, #283593);
+        }
+
+        .eg-slide-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2rem 2rem 1.5rem;
+            background: linear-gradient(to top, rgba(0, 0, 0, .82) 0%, transparent 100%);
+            color: #fff;
+        }
+
+        .eg-slide-caption .eg-cat-tag {
+            background: rgba(255, 255, 255, .2);
+            color: #fff;
+            backdrop-filter: blur(4px);
+            margin-bottom: 6px;
+        }
+
+        .eg-slide-caption h3 {
+            margin: 0 0 4px;
+            font-size: 22px;
+            font-weight: 700;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+        }
+
+        .eg-slide-caption p {
+            margin: 0;
+            font-size: 13px;
+            opacity: .85;
+        }
+
+        .eg-slide-prev,
+        .eg-slide-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, .18);
+            border: none;
+            color: #fff;
+            font-size: 26px;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(4px);
+            transition: background .2s;
+            z-index: 10;
+        }
+
+        .eg-slide-prev:hover,
+        .eg-slide-next:hover {
+            background: rgba(255, 255, 255, .34);
+        }
+
+        .eg-slide-prev {
+            left: 14px;
+        }
+
+        .eg-slide-next {
+            right: 14px;
+        }
+
+        .eg-slide-dots {
+            position: absolute;
+            bottom: 14px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 7px;
+            z-index: 10;
+        }
+
+        .eg-slide-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .45);
+            cursor: pointer;
+            transition: background .2s, transform .2s;
+            border: none;
+        }
+
+        .eg-slide-dot.active {
+            background: #fff;
+            transform: scale(1.3);
+        }
+
+        @media (max-width: 600px) {
+
+            .eg-slide-img,
+            .eg-slide-placeholder {
+                height: 240px;
+            }
+
+            .eg-slide-caption h3 {
+                font-size: 16px;
+            }
+        }
+
+        /* Lightbox */
+        .eg-lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(5, 10, 25, .93);
+            z-index: 9999;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .eg-lightbox.open {
+            display: flex;
+        }
+
+        .eg-lb-header {
+            width: 100%;
+            max-width: 920px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 12px 16px 6px;
+            color: #fff;
+        }
+
+        .eg-lb-title {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .eg-lb-sub {
+            font-size: 12px;
+            opacity: .7;
+            margin-top: 2px;
+        }
+
+        .eg-lb-close {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 22px;
+            cursor: pointer;
+            padding: 0 6px;
+            line-height: 1;
+        }
+
+        .eg-lb-img-wrap {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 920px;
+            padding: 0 48px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .eg-lb-img {
+            max-width: 100%;
+            max-height: 62vh;
+            border-radius: 8px;
+            object-fit: contain;
+        }
+
+        .eg-lb-nav {
+            position: absolute;
+            background: rgba(255, 255, 255, .15);
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background .2s;
+            line-height: 1;
+        }
+
+        .eg-lb-nav:hover {
+            background: rgba(255, 255, 255, .3);
+        }
+
+        .eg-lb-prev {
+            left: 6px;
+        }
+
+        .eg-lb-next {
+            right: 6px;
+        }
+
+        .eg-lb-thumbs {
+            display: flex;
+            gap: 8px;
+            padding: 10px 16px;
+            overflow-x: auto;
+            max-width: 920px;
+            width: 100%;
+        }
+
+        .eg-lb-thumb {
+            flex-shrink: 0;
+            width: 68px;
+            height: 52px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            opacity: .6;
+            transition: opacity .2s, border-color .2s;
+        }
+
+        .eg-lb-thumb.active {
+            border-color: #fff;
+            opacity: 1;
+        }
+
+        .eg-lb-desc {
+            max-width: 920px;
+            width: 100%;
+            color: rgba(255, 255, 255, .75);
+            font-size: 13px;
+            padding: 4px 16px 12px;
+            line-height: 1.5;
+        }
+
+        /* ══════════════════════════════════════════════════════
+       Admin Events section
+    ══════════════════════════════════════════════════════ */
+        .events-admin-form {
+            background: #f8faff;
+            border: 1.5px solid #d0d8ea;
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-bottom: 16px;
+        }
+
+        .events-form-heading {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1a237e;
+            margin: 0 0 12px;
+        }
+
+        .events-photo-manager {
+            background: #f0f4ff;
+            border: 1.5px solid #c5d3ea;
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-bottom: 16px;
+        }
+
+        .ev-dropzone {
+            border: 2px dashed #aabbd4;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            color: #6677aa;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background .2s, border-color .2s;
+        }
+
+        .ev-dropzone:hover,
+        .ev-dropzone.drag-over {
+            background: #e8f0fc;
+            border-color: #1565c0;
+        }
+
+        .ev-dropzone i {
+            display: block;
+            font-size: 22px;
+            margin-bottom: 6px;
+        }
+
+        .ev-preview {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .ev-thumb-wrap {
+            position: relative;
+            width: 72px;
+            height: 58px;
+        }
+
+        .ev-thumb-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1.5px solid #d0d8ea;
+        }
+
+        .ev-thumb-rm {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #e53935;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            font-size: 9px;
+            line-height: 18px;
+            text-align: center;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .ev-admin-row {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            background: #fff;
+            border: 1.5px solid #e0e4ea;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        .ev-admin-cover {
+            width: 76px;
+            height: 62px;
+            object-fit: cover;
+            border-radius: 7px;
+            background: #e8edf5;
+            flex-shrink: 0;
+        }
+
+        .ev-admin-cover-ph {
+            width: 76px;
+            height: 62px;
+            border-radius: 7px;
+            background: #e8edf5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .ev-admin-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .ev-admin-info h4 {
+            margin: 0 0 4px;
+            font-size: 14px;
+            color: #1a237e;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .ev-admin-meta {
+            font-size: 11px;
+            color: #8899aa;
+            margin-bottom: 6px;
+        }
+
+        .ev-admin-actions {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .ev-btn-sm {
+            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: 700;
+            transition: opacity .15s;
+        }
+
+        .ev-btn-sm:hover {
+            opacity: .8;
+        }
+
+        .ev-edit-btn {
+            background: #e3f0ff;
+            color: #1565c0;
+        }
+
+        .ev-photos-btn {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .ev-del-btn {
+            background: #fdecea;
+            color: #c62828;
+        }
+
+        /* Toast */
+        #evToast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(60px);
+            background: #323232;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            z-index: 99999;
+            opacity: 0;
+            transition: opacity .3s, transform .3s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        #evToast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        #evToast.success {
+            background: #2e7d32;
+        }
+
+        #evToast.error {
+            background: #c62828;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Search Bar -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search the website..." autocomplete="off">
+            <button class="search-close" id="searchClose"><i class="fas fa-times"></i></button>
+            <div id="searchResults"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="images/institute_logo.png" alt="PVPIT Logo" class="logo">
+                    <div class="logo-text">
+                        <h1>PVPIT</h1>
+                        <p>Excellence in Technical Education</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#programs" class="nav-link">Programs</a></li>
+                        <li><a href="#placements" class="nav-link">Placements</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                        <li><a href="#events-gallery" class="nav-link">Gallery</a></li>
+                        <li><button class="search-btn" id="searchBtn"><i class="fas fa-search"></i></button></li>
+                        <li><button class="admin-nav-btn" id="adminNavBtn"><i class="fas fa-user-shield"></i>
+                                Admin</button></li>
+                    </ul>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+                <a href="#admission" class="btn-admission">Admission Open</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-overlay"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h2 class="hero-title">Welcome to PVPIT</h2>
+                        <p class="hero-subtitle">Building Future Engineers & Innovators</p>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-primary">Learn More</a>
+                            <a href="#programs" class="btn btn-secondary">Our Programs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap stat-icon"></i>
+                    <h3 class="stat-number" data-target="5000">0</h3>
+                    <p class="stat-label">Students</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chalkboard-teacher stat-icon"></i>
+                    <h3 class="stat-number" data-target="200">0</h3>
+                    <p class="stat-label">Faculty Members</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-award stat-icon"></i>
+                    <h3 class="stat-number" data-target="95">0</h3>
+                    <p class="stat-label">Placement Rate %</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-building stat-icon"></i>
+                    <h3 class="stat-number" data-target="150">0</h3>
+                    <p class="stat-label">Partner Companies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Our Institution</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text">
+                        <strong>Padmabhooshan Vasantdada Patil Institute of Technology (PVPIT)</strong> is governed by
+                        The Shetkari Shikshan Mandal, a charitable Trust registered under Bombay Public Trust Act 1950
+                        and Societies Registration Act 1860. The TSSM started the Padmabhooshan Vasantdada Patil
+                        Institute of Technology in the academic year 2006-07. The College is approved by All India
+                        Council for Technical Education (AICTE), New Delhi, recognized by Government of Maharashtra,
+                        Directorate of Technical Education (DTE) and affiliated to University of Pune.
+                    </p>
+                    <p class="about-text">
+                        Dr. Prof. T. J. Sawant, President TSSM is renowned entrepreneur and educationalist. He strongly
+                        believes that establishment of excellent technical institutions are the key solution to the
+                        problem of development of techno-economic society.
+                    </p>
+                    <p class="about-text">
+                        He is also Founder Secretary of Jayawant Shikshan Prasarak Mandal (JSPM) which is established in
+                        the year 1998 and is known as a leading education group in India, in the very small span with a
+                        number of institutes such as Engineering, Management, Pharmacy, Diploma, Computer Application
+                        and Pre-Primary, Primary, Secondary School in and around Pune in five campuses.
+                    </p>
+                    <p class="about-text">
+                        Padmabhooshan Vasantdada Patil Institute of Technology is housed in a spacious campus at Bavdhan
+                        (KD), Chandni Chowk, near Kothrud, Pune, which is surrounded by greenery and mountains. Under
+                        the dynamic leadership of Dr. Prof. T. J. Sawant, the institute is progressing by keeping pace
+                        with the world. We believe in imparting value based quality engineering education so that, our
+                        students will be placed in the industry, public and private sector organization and others.
+                        Institute is well known for discipline, good learning environment, and student-centric
+                        activities.
+                    </p>
+                </div>
+                <div class="about-video">
+                    <div class="video-wrapper">
+                        <!-- PVPIT Official YouTube Channel -->
+                        <iframe src="https://www.youtube.com/embed/xlhY7JH472E?rel=0&modestbranding=1"
+                            title="PVPIT Bavdhan | Campus Tour" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Mission Quality Section -->
+    <section class="vmq-section">
+        <div class="container">
+            <div class="vmq-grid">
+                <div class="vmq-card vision-card">
+                    <div class="vmq-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="vmq-title">Vision</h3>
+                    <p class="vmq-text">To satisfy the aspirations of youth force, who want to lead the nation towards
+                        prosperity through techno-economic Development.</p>
+                </div>
+                <div class="vmq-card mission-card">
+                    <div class="vmq-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="vmq-title">Mission</h3>
+                    <p class="vmq-text">To provide, nurture and maintain an environment of high academic excellence,
+                        research and entrepreneurship for all aspiring students, which will prepare them to face global
+                        challenges maintaining high ethical and moral standards by implementing quality practices.</p>
+                </div>
+                <div class="vmq-card quality-card">
+                    <div class="vmq-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="vmq-title">Quality Policy</h3>
+                    <p class="vmq-text">We at Padmbhooshan Vasantdada Patil Institute of Technology are committed to
+                        maximize student satisfaction through improved performance by imparting value based quality
+                        education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section (NEW FEATURE) -->
+    <section class="programs-section" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Programs</h2>
+                <div class="section-underline"></div>
+                <p class="section-description">Choose from our wide range of undergraduate and postgraduate programs</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Computer Engineering</h3>
+                    <p>Learn cutting-edge technologies in software development, AI, and data science</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Industry-aligned curriculum</li>
+                        <li><i class="fas fa-check"></i> Modern labs & equipment</li>
+                        <li><i class="fas fa-check"></i> Expert faculty</li>
+                    </ul>
+                    <a href="#" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Electronics & Telecommunication</h3>
+                    <p>Master the fundamentals of electronics, communication systems and IoT</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Advanced laboratories</li>
+                        <li><i class="fas fa-check"></i> Research opportunities</li>
+                        <li><i class="fas fa-check"></i> Industry projects</li>
+                    </ul>
+                    <a href="#" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Mechanical Engineering</h3>
+                    <p>Design, analyze and manufacture innovative mechanical systems</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> State-of-the-art workshops</li>
+                        <li><i class="fas fa-check"></i> CAD/CAM facilities</li>
+                        <li><i class="fas fa-check"></i> Industry internships</li>
+                    </ul>
+                    <a href="#" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Electrical Engineering</h3>
+                    <p>Explore power systems, renewable energy, and automation</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-check"></i> Smart grid technology</li>
+                        <li><i class="fas fa-check"></i> Renewable energy lab</li>
+                        <li><i class="fas fa-check"></i> PLC & automation</li>
+                    </ul>
+                    <a href="#" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placements Section (NEW FEATURE) -->
+    <section class="placements-section" id="placements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Recruiters</h2>
+                <div class="section-underline"></div>
+                <p class="section-description">Top companies trust PVPIT graduates</p>
+            </div>
+            <!-- Auto-scrolling recruiter marquee -->
+            <div class="recruiter-marquee-wrap">
+                <div class="recruiter-marquee">
+                    <div class="recruiter-track">
+                        <div class="company-logo"><img src="https://logo.clearbit.com/tcs.com" alt="TCS"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>TCS</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/infosys.com" alt="Infosys"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Infosys</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/techmahindra.com"
+                                alt="Tech Mahindra"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Tech Mahindra</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/ibm.com" alt="IBM"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>IBM</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/amazon.com" alt="Amazon"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Amazon</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/bosch.com" alt="Bosch"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Bosch</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/capgemini.com" alt="Capgemini"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Capgemini</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/cognizant.com" alt="Cognizant"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Cognizant</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/accenture.com" alt="Accenture"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Accenture</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/wipro.com" alt="Wipro"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Wipro</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/hcltech.com" alt="HCL"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>HCL</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/persistent.com" alt="Persistent"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Persistent</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/tatamotors.com" alt="Tata Motors"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Tata Motors</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/byju.com" alt="BYJU'S"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>BYJU\'S</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/intellipaat.com" alt="Intellipaat"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Intellipaat</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/wiley.com" alt="Wiley"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Wiley</span>'">
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="company-logo"><img src="https://logo.clearbit.com/tcs.com" alt="TCS"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>TCS</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/infosys.com" alt="Infosys"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Infosys</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/techmahindra.com"
+                                alt="Tech Mahindra"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Tech Mahindra</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/ibm.com" alt="IBM"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>IBM</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/amazon.com" alt="Amazon"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Amazon</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/bosch.com" alt="Bosch"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Bosch</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/capgemini.com" alt="Capgemini"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Capgemini</span>'">
+                        </div>
+                        <div class="company-logo"><img src="https://logo.clearbit.com/cognizant.com" alt="Cognizant"
+                                onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\'company-text-logo\'>Cognizant</span>'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Real PVPIT Placement Stats -->
+            <div class="placement-stats-bar">
+                <div class="placement-stat-item">
+                    <span class="placement-stat-number">81%</span>
+                    <span class="placement-stat-label">Placement Rate</span>
+                </div>
+                <div class="placement-stat-divider"></div>
+                <div class="placement-stat-item">
+                    <span class="placement-stat-number">1500+</span>
+                    <span class="placement-stat-label">Recruiters Visited</span>
+                </div>
+                <div class="placement-stat-divider"></div>
+                <div class="placement-stat-item">
+                    <span class="placement-stat-number">&#8377;18 LPA</span>
+                    <span class="placement-stat-label">Highest Package</span>
+                </div>
+                <div class="placement-stat-divider"></div>
+                <div class="placement-stat-item">
+                    <span class="placement-stat-number">&#8377;4.2 LPA</span>
+                    <span class="placement-stat-label">Average Package</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & News Timeline (NEW FEATURE) -->
+    <section class="events-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Events & News</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="timeline" id="noticesTimeline">
+                <!-- notices loaded dynamically by admin.js -->
+                <div class="timeline-loading"><i class="fas fa-spinner fa-spin"></i> Loading notices…</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- Events Gallery Section                                    -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <section class="events-gallery-section" id="events-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📸 College Events Gallery</h2>
+                <div class="section-underline"></div>
+                <p class="section-description">Relive the moments — cultural fests, technical events, workshops &amp;
+                    more</p>
+            </div>
+
+            <!-- Slideshow -->
+            <div class="eg-slideshow" id="egSlideshow">
+                <div class="eg-slides-track" id="egSlidesTrack"></div>
+                <button class="eg-slide-prev" id="egSlidePrev">&#8249;</button>
+                <button class="eg-slide-next" id="egSlideNext">&#8250;</button>
+                <div class="eg-slide-dots" id="egSlideDots"></div>
+            </div>
+
+            <!-- Filter toolbar -->
+            <div class="eg-toolbar">
+                <div class="eg-filters">
+                    <button class="eg-filter-btn active" data-cat="All">All</button>
+                    <button class="eg-filter-btn" data-cat="Cultural">Cultural</button>
+                    <button class="eg-filter-btn" data-cat="Technical">Technical</button>
+                    <button class="eg-filter-btn" data-cat="Workshop">Workshop</button>
+                    <button class="eg-filter-btn" data-cat="Sports">Sports</button>
+                    <button class="eg-filter-btn" data-cat="General">General</button>
+                </div>
+                <input class="eg-search" id="egSearch" type="text" placeholder="Search events…" autocomplete="off" />
+            </div>
+
+            <!-- Grid -->
+            <div class="eg-grid" id="egGrid">
+                <div class="eg-loading" id="egLoading">
+                    <i class="fas fa-spinner fa-spin"></i> Loading events…
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="eg-lightbox" id="egLightbox">
+        <div class="eg-lb-header">
+            <div>
+                <div class="eg-lb-title" id="egLbTitle"></div>
+                <div class="eg-lb-sub" id="egLbSub"></div>
+            </div>
+            <button class="eg-lb-close" id="egLbClose">&#10005;</button>
+        </div>
+        <div class="eg-lb-img-wrap">
+            <button class="eg-lb-nav eg-lb-prev" id="egLbPrev">&#8249;</button>
+            <img class="eg-lb-img" id="egLbImg" src="" alt="Event photo" />
+            <button class="eg-lb-nav eg-lb-next" id="egLbNext">&#8250;</button>
+        </div>
+        <div class="eg-lb-thumbs" id="egLbThumbs"></div>
+        <div class="eg-lb-desc" id="egLbDesc"></div>
+    </div>
+
+    <!-- Testimonials Section (NEW FEATURE) -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Students Say</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=Rahul+Sharma&background=8B0000&color=fff&size=60&rounded=true"
+                            alt="Rahul Sharma" class="testimonial-avatar">
+                        <div>
+                            <h4>Rahul Sharma</h4>
+                            <p>Computer Engineering, 2024</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"PVPIT provided me with excellent faculty, modern infrastructure, and
+                        industry exposure. I secured a placement in a top tech company thanks to the training and
+                        support."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=Priya+Patil&background=1a237e&color=fff&size=60&rounded=true"
+                            alt="Priya Patil" class="testimonial-avatar">
+                        <div>
+                            <h4>Priya Patil</h4>
+                            <p>Electronics & Telecom, 2023</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The hands-on learning approach and state-of-the-art labs helped me
+                        develop practical skills. The placement cell guided me throughout my career preparation."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=Aditya+Desai&background=4a148c&color=fff&size=60&rounded=true"
+                            alt="Aditya Desai" class="testimonial-avatar">
+                        <div>
+                            <h4>Aditya Desai</h4>
+                            <p>Mechanical Engineering, 2025</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The faculty members are highly experienced and supportive. The
+                        institute also provides excellent opportunities for research and innovation."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Button (NEW FEATURE) -->
+    <section class="virtual-tour-section">
+        <div class="container">
+            <div class="virtual-tour-content">
+                <h2>Explore Our Campus Virtually</h2>
+                <p>Take a 360° virtual tour of our state-of-the-art campus and facilities</p>
+                <button class="btn btn-primary btn-large" id="virtualTourBtn">
+                    <i class="fas fa-street-view"></i> Start Virtual Tour
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Bavdhan (KD), Chandni Chowk, Near Kothrud, Pune - 411021</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 88305 65816</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@pvpittssm.edu.in</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://twitter.com/PvpitP" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/pvpitbavdhan" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/pvpitbavdhan6122/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCjPxri4BKT129Nia_pdwcVQ" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/pvpit-bavdhan-pune-941813160/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=8830565816" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About PVPIT</h4>
+                    <p>Padmabhooshan Vasantdada Patil Institute of Technology (PVPIT) is governed by The Shetkari
+                        Shikshan Mandal, a charitable Trust registered under Bombay Public Trust Act 1950 and Societies
+                        Registration Act 1860.</p>
+                    <div class="footer-badges">
+                        <div class="accreditation-badges">
+                            <div class="accreditation-badge">
+                                <div class="badge-circle naac-badge">
+                                    <span class="badge-grade">A</span>
+                                    <span class="badge-org">NAAC</span>
+                                </div>
+                            </div>
+                            <div class="accreditation-badge">
+                                <div class="badge-circle aicte-badge">
+                                    <span class="badge-org-sm">AICTE</span>
+                                    <span class="badge-status">Approved</span>
+                                </div>
+                            </div>
+                            <div class="accreditation-badge">
+                                <div class="badge-circle nba-badge">
+                                    <span class="badge-org-sm">NBA</span>
+                                    <span class="badge-status">Accredited</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">NAAC</a></li>
+                        <li><a href="#">IQAC</a></li>
+                        <li><a href="https://www.aicte-india.org/" target="_blank">AICTE</a></li>
+                        <li><a href="https://dte.maharashtra.gov.in/" target="_blank">DTE</a></li>
+                        <li><a href="https://www.nbaind.org/" target="_blank">NBA</a></li>
+                        <li><a href="http://www.unipune.ac.in/" target="_blank">SPPU</a></li>
+                        <li><a href="#">Grievance</a></li>
+                        <li><a href="#">Cells</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PVPIT Hub</h4>
+                    <ul>
+                        <li><a href="#">Students</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Student Achievements</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Notices</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get latest updates and news</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2007 - 2026 <strong>PVPIT</strong>. All Rights Reserved</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by PVPIT Tech Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Bot — Multilingual -->
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-header">
+            <div class="chatbot-header-top">
+                <h4><i class="fas fa-comments"></i> <span id="chatbotTitle">PVPIT Assistant</span></h4>
+                <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- Language selector bar -->
+            <div class="chatbot-lang-bar">
+                <button class="lang-btn active" data-lang="en" data-voice="en-IN">🇬🇧 English</button>
+                <button class="lang-btn" data-lang="hi" data-voice="hi-IN">🇮🇳 हिंदी</button>
+                <button class="lang-btn" data-lang="mr" data-voice="mr-IN">🟠 मराठी</button>
+                <button class="lang-btn" data-lang="gu" data-voice="gu-IN">🔵 ગુજરાતી</button>
+            </div>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chatbot-message bot-message">
+                <p id="chatbotWelcome">Hello! 👋 I'm PVPIT Assistant. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chatbotInput" placeholder="Type your message...">
+            <button id="chatbotSend" title="Send"><i class="fas fa-paper-plane"></i></button>
+            <button id="voiceBtn" title="Speak (Voice Input)"><i class="fas fa-microphone"></i></button>
+            <button id="ttsToggleBtn" title="Toggle voice reply" class="tts-active"><i
+                    class="fas fa-volume-up"></i></button>
+        </div>
+    </div>
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://api.whatsapp.com/send?phone=8830565816" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js" defer></script>
+    <script src="festival-scheduler.js" defer></script>
+
+    <!-- ── Admin Login Modal ──────────────────────────────────────────── -->
+    <div class="admin-overlay" id="adminOverlay">
+        <div class="admin-modal">
+            <div class="admin-modal-header">
+                <i class="fas fa-user-shield"></i>
+                <h2>Admin Login</h2>
+                <button class="admin-modal-close" id="adminModalClose"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="admin-modal-body">
+                <div class="admin-form-group">
+                    <label>Username</label>
+                    <input type="text" id="adminUsername" placeholder="Enter username" autocomplete="username">
+                </div>
+                <div class="admin-form-group">
+                    <label>Password</label>
+                    <div class="admin-pw-wrap">
+                        <input type="password" id="adminPassword" placeholder="Enter password"
+                            autocomplete="current-password">
+                        <button class="admin-pw-toggle" id="adminPwToggle"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <p class="admin-error" id="adminError"></p>
+                <button class="admin-login-btn" id="adminLoginBtn">
+                    <span id="adminLoginText">Login</span>
+                    <i class="fas fa-spinner fa-spin" id="adminLoginSpinner" style="display:none"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Admin Panel (slide-in from right) ─────────────────────────── -->
+    <div class="admin-panel" id="adminPanel">
+        <div class="admin-panel-header">
+            <div class="admin-panel-title">
+                <i class="fas fa-user-shield"></i>
+                <span>Admin Panel</span>
+                <span class="admin-user-badge" id="adminUserBadge"></span>
+            </div>
+            <div class="admin-panel-actions">
+                <button class="admin-logout-btn" id="adminLogoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                <button class="admin-panel-close" id="adminPanelClose"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+
+        <div class="admin-panel-body">
+            <!-- ── NLP Command Interface (NEW) ───────────────────── -->
+            <div class="admin-section nlp-section">
+                <h3><i class="fas fa-magic"></i> Smart Command <span class="nlp-badge">AI-Powered</span></h3>
+                <p class="nlp-hint">Type what you want to do in plain English — no forms needed.</p>
+                <div class="nlp-examples">
+                    <span onclick="fillNlpCommand(this)">Add exam postponement notice for SE Computer</span>
+                    <span onclick="fillNlpCommand(this)">Post library closed on 25th June</span>
+                    <span onclick="fillNlpCommand(this)">Delete the Tech Fest notice</span>
+                    <span onclick="fillNlpCommand(this)">Refresh SPPU data</span>
+                </div>
+                <div class="nlp-input-wrap">
+                    <textarea id="nlpCommandInput" rows="2"
+                        placeholder='e.g. "Add a notice about exam postponement for SE Computer on 20th March"'></textarea>
+                    <button class="nlp-send-btn" id="nlpSendBtn">
+                        <i class="fas fa-paper-plane"></i> Execute
+                    </button>
+                </div>
+                <div class="nlp-result" id="nlpResult" style="display:none"></div>
+            </div>
+
+            <!-- Add Notice (Manual fallback) -->
+            <div class="admin-section">
+                <h3><i class="fas fa-plus-circle"></i> Add New Notice <span
+                        style="font-size:11px;color:#888;font-weight:400">(manual)</span></h3>
+                <div class="admin-form-group">
+                    <label>Title *</label>
+                    <input type="text" id="newNoticeTitle" placeholder="e.g. Exam Postponed — Sem 5">
+                </div>
+                <div class="admin-form-group">
+                    <label>Description *</label>
+                    <textarea id="newNoticeBody" rows="3" placeholder="Enter notice details..."></textarea>
+                </div>
+                <div class="admin-form-group">
+                    <label>Date</label>
+                    <input type="text" id="newNoticeDate" placeholder="e.g. March 2026">
+                </div>
+                <div class="admin-form-group">
+                    <label>Attach Documents <span style="font-size:11px;color:#888;font-weight:400">(PDF, DOCX, XLSX,
+                            PPTX, TXT, ZIP)</span></label>
+                    <div class="notice-attach-zone" id="noticeAttachZone">
+                        <i class="fas fa-paperclip"></i>
+                        <span>Click to attach files</span>
+                        <input type="file" id="noticeFileInput" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,.zip"
+                            multiple style="display:none">
+                    </div>
+                    <div id="noticeFileList" class="notice-file-list"></div>
+                </div>
+                <button class="admin-add-btn" id="adminAddBtn">
+                    <i class="fas fa-plus"></i> Add Notice
+                </button>
+                <p class="admin-feedback" id="addFeedback"></p>
+            </div>
+
+            <!-- Manage Notices -->
+            <div class="admin-section">
+                <h3><i class="fas fa-list"></i> Manage Notices</h3>
+                <div id="adminNoticesList"></div>
+            </div>
+
+            <!-- ══════════════════════════════════════════════════════ -->
+            <!-- Events Gallery Admin Section                          -->
+            <!-- ══════════════════════════════════════════════════════ -->
+            <div class="admin-section" id="adminEventsSection">
+                <h3><i class="fas fa-images"></i> Events Gallery</h3>
+
+                <!-- Add / Edit Event form -->
+                <div class="events-admin-form" id="eventsAdminForm">
+                    <p class="events-form-heading" id="eventsFormHeading">
+                        <i class="fas fa-plus-circle"></i> Add New Event
+                    </p>
+
+                    <div class="admin-form-group">
+                        <label>Event Title *</label>
+                        <input type="text" id="evTitle" placeholder="e.g. Techfest 2025 — PVPIT" maxlength="120">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Category</label>
+                        <select id="evCategory">
+                            <option value="Cultural">Cultural</option>
+                            <option value="Technical">Technical</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Sports">Sports</option>
+                            <option value="General" selected>General</option>
+                        </select>
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Event Date</label>
+                        <input type="date" id="evDate">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Description</label>
+                        <textarea id="evDescription" rows="3" placeholder="Short description of the event…"></textarea>
+                    </div>
+
+                    <!-- Photo upload drop-zone -->
+                    <label class="admin-form-group" style="display:block">
+                        Photos <span style="font-weight:400;color:#888;font-size:12px">(up to 10, max 5 MB each —
+                            JPG/PNG/GIF/WEBP)</span>
+                    </label>
+                    <div class="ev-dropzone" id="evDropzone">
+                        <input type="file" id="evFileInput" accept="image/*" multiple style="display:none">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <span>Click or drag &amp; drop photos here</span>
+                    </div>
+                    <div class="ev-preview" id="evPreview"></div>
+
+                    <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+                        <button class="admin-add-btn" id="evSubmitBtn">
+                            <i class="fas fa-plus"></i> Add Event
+                        </button>
+                        <button class="admin-add-btn" id="evCancelBtn"
+                            style="display:none;background:var(--card-border,#e2e8f0);color:#334">
+                            Cancel
+                        </button>
+                    </div>
+                    <p class="admin-feedback" id="evFeedback"></p>
+                </div>
+
+                <!-- Photo manager (shown when managing photos of an existing event) -->
+                <div class="events-photo-manager" id="evPhotoManager" style="display:none">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+                        <strong id="evPmTitle" style="font-size:14px;color:#1a237e"></strong>
+                        <button class="admin-add-btn" id="evPmCloseBtn"
+                            style="background:#e2e8f0;color:#334;padding:5px 12px;font-size:13px">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                    </div>
+                    <p style="font-size:12px;color:#888;margin:0 0 8px">Current photos (click ✕ to remove):</p>
+                    <div class="ev-preview" id="evPmExisting"></div>
+
+                    <div class="ev-dropzone" id="evDropzonePm" style="margin-top:10px">
+                        <input type="file" id="evFileInputPm" accept="image/*" multiple style="display:none">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <span>Add more photos</span>
+                    </div>
+                    <div class="ev-preview" id="evPmPreview"></div>
+
+                    <button class="admin-add-btn" id="evPmUploadBtn" style="margin-top:10px">
+                        <i class="fas fa-upload"></i> Upload Selected
+                    </button>
+                    <p class="admin-feedback" id="evPmFeedback"></p>
+                </div>
+
+                <!-- Existing events list -->
+                <div id="evAdminList" style="margin-top:16px">
+                    <p style="color:#888;font-size:13px">Loading events…</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Notice Modal -->
+    <div class="admin-overlay" id="editOverlay">
+        <div class="admin-modal">
+            <div class="admin-modal-header">
+                <i class="fas fa-edit"></i>
+                <h2>Edit Notice</h2>
+                <button class="admin-modal-close" id="editModalClose"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="admin-modal-body">
+                <input type="hidden" id="editNoticeId">
+                <div class="admin-form-group">
+                    <label>Title *</label>
+                    <input type="text" id="editNoticeTitle">
+                </div>
+                <div class="admin-form-group">
+                    <label>Description *</label>
+                    <textarea id="editNoticeBody" rows="4"></textarea>
+                </div>
+                <div class="admin-form-group">
+                    <label>Date</label>
+                    <input type="text" id="editNoticeDate">
+                </div>
+                <p class="admin-error" id="editError"></p>
+                <button class="admin-login-btn" id="editSaveBtn"><i class="fas fa-save"></i> Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+    <script src="events_gallery.js"></script>
+    <div id="evToast"></div>
+
+    <!-- ── Student Login Modal ───────────────────────────────────────── -->
+    <div class="admin-overlay" id="studentOverlay">
+        <div class="admin-modal">
+            <div class="admin-modal-header">
+                <i class="fas fa-user-graduate"></i>
+                <h2>Student / Visitor Login</h2>
+                <button class="admin-modal-close" id="studentModalClose"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="admin-modal-body">
+                <!-- Tab switcher -->
+                <div class="student-tabs">
+                    <button class="student-tab active" id="tabLogin" onclick="switchStudentTab('login')">Login</button>
+                    <button class="student-tab" id="tabRegister"
+                        onclick="switchStudentTab('register')">Register</button>
+                </div>
+
+                <!-- Login form -->
+                <div id="studentLoginForm">
+                    <div class="admin-form-group">
+                        <label>Username</label>
+                        <input type="text" id="studentUsername" placeholder="Enter username" autocomplete="username">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Password</label>
+                        <input type="password" id="studentPassword" placeholder="Enter password">
+                    </div>
+                    <p class="admin-error" id="studentLoginError"></p>
+                    <button class="admin-login-btn" id="studentLoginBtn">
+                        <span id="studentLoginText">Login</span>
+                        <i class="fas fa-spinner fa-spin" id="studentLoginSpinner" style="display:none"></i>
+                    </button>
+                    <p style="font-size:12px;color:#888;margin-top:8px">Demo: student1 / student123 &nbsp;|&nbsp;
+                        visitor1 / visitor123</p>
+                </div>
+
+                <!-- Register form -->
+                <div id="studentRegisterForm" style="display:none">
+                    <div class="admin-form-group">
+                        <label>Full Name *</label>
+                        <input type="text" id="regName" placeholder="Your full name">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Username *</label>
+                        <input type="text" id="regUsername" placeholder="Choose a username">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Password *</label>
+                        <input type="password" id="regPassword" placeholder="Choose a password">
+                    </div>
+                    <div class="admin-form-group">
+                        <label>Role</label>
+                        <select id="regRole">
+                            <option value="student">Student</option>
+                            <option value="visitor">Visitor</option>
+                        </select>
+                    </div>
+                    <div class="admin-form-group" id="regDeptWrap">
+                        <label>Department</label>
+                        <select id="regDepartment">
+                            <option value="">Select department</option>
+                            <option>Computer Engineering</option>
+                            <option>Information Technology</option>
+                            <option>Electronics & Telecommunication</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Civil Engineering</option>
+                        </select>
+                    </div>
+                    <div class="admin-form-group" id="regYearWrap">
+                        <label>Year</label>
+                        <select id="regYear">
+                            <option value="">Select year</option>
+                            <option>FE</option>
+                            <option>SE</option>
+                            <option>TE</option>
+                            <option>BE</option>
+                        </select>
+                    </div>
+                    <p class="admin-error" id="studentRegisterError"></p>
+                    <button class="admin-login-btn" id="studentRegisterBtn">
+                        <span>Register</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Student Info Panel (shown after login) ─────────────────────── -->
+    <div class="admin-panel" id="studentPanel" style="display:none">
+        <div class="admin-panel-header">
+            <div class="admin-panel-title">
+                <i class="fas fa-user-graduate"></i>
+                <span>My Profile</span>
+                <span class="admin-user-badge" id="studentRoleBadge"></span>
+            </div>
+            <div class="admin-panel-actions">
+                <button class="admin-logout-btn" id="studentLogoutBtn"><i class="fas fa-sign-out-alt"></i>
+                    Logout</button>
+                <button class="admin-panel-close" id="studentPanelClose"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="admin-panel-body">
+            <div class="admin-section">
+                <div id="studentProfileCard" style="padding:12px 0"></div>
+            </div>
+            <div class="admin-section">
+                <h3><i class="fas fa-bell"></i> My Notices</h3>
+                <div id="studentNoticesList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+
+</html>

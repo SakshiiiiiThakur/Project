@@ -1,0 +1,121 @@
+{
+  "info": {
+    "description": "Festival dates for PVPIT — flat list, one entry per festival per year. Scheduler reads only entries whose date year matches the current year.",
+    "lastUpdated": "2026-03-29",
+    "note": "Add a new entry for each year. No year-grouping needed — just keep dates accurate."
+  },
+  "festivals": [
+    {
+      "name": "Republic Day",
+      "date": "2026-03-26",
+      "endDate": "2026-03-26",
+      "theme": "tricolor",
+      "description": "India's Republic Day"
+    },
+    {
+      "name": "Holi",
+      "date": "2026-03-29",
+      "endDate": "2026-03-29",
+      "theme": "holi",
+      "description": "Festival of Colors"
+    },
+    {
+      "name": "Gudi Padwa",
+      "date": "2026-03-15",
+      "endDate": "2026-03-16",
+      "theme": "gudipadwa",
+      "description": "Marathi New Year"
+    },
+    {
+      "name": "Eid al-Fitr",
+      "date": "2026-03-20",
+      "endDate": "2026-03-22",
+      "theme": "eid",
+      "description": "Festival of Breaking the Fast"
+    },
+    {
+      "name": "Independence Day",
+      "date": "2026-08-15",
+      "endDate": "2026-08-15",
+      "theme": "tricolor",
+      "description": "India's Independence Day"
+    },
+    {
+      "name": "Ganesh Chaturthi",
+      "date": "2026-09-16",
+      "endDate": "2026-09-25",
+      "theme": "ganesh",
+      "description": "Lord Ganesha's Birthday"
+    },
+    {
+      "name": "Diwali",
+      "date": "2026-11-08",
+      "endDate": "2026-11-12",
+      "theme": "diwali",
+      "description": "Festival of Lights"
+    },
+    {
+      "name": "Christmas",
+      "date": "2026-12-25",
+      "endDate": "2026-12-25",
+      "theme": "christmas",
+      "description": "Christmas Day"
+    },
+    {
+      "name": "Republic Day",
+      "date": "2027-01-26",
+      "endDate": "2027-01-26",
+      "theme": "tricolor",
+      "description": "India's Republic Day"
+    },
+    {
+      "name": "Holi",
+      "date": "2027-03-22",
+      "endDate": "2027-03-23",
+      "theme": "holi",
+      "description": "Festival of Colors"
+    },
+    {
+      "name": "Gudi Padwa",
+      "date": "2027-04-11",
+      "endDate": "2027-04-11",
+      "theme": "gudipadwa",
+      "description": "Marathi New Year"
+    },
+    {
+      "name": "Eid al-Fitr",
+      "date": "2027-03-10",
+      "endDate": "2027-03-12",
+      "theme": "eid",
+      "description": "Festival of Breaking the Fast"
+    },
+    {
+      "name": "Independence Day",
+      "date": "2027-08-15",
+      "endDate": "2027-08-15",
+      "theme": "tricolor",
+      "description": "India's Independence Day"
+    },
+    {
+      "name": "Ganesh Chaturthi",
+      "date": "2027-09-05",
+      "endDate": "2027-09-14",
+      "theme": "ganesh",
+      "description": "Lord Ganesha's Birthday"
+    },
+    {
+      "name": "Diwali",
+      "date": "2027-10-29",
+      "endDate": "2027-11-02",
+      "theme": "diwali",
+      "description": "Festival of Lights"
+    },
+    {
+      "name": "Christmas",
+      "date": "2027-12-25",
+      "endDate": "2027-12-25",
+      "theme": "christmas",
+      "description": "Christmas Day"
+    }
+  ]
+}
