@@ -1,0 +1,59 @@
+[
+  {
+    "id": "dd8d8171-ddf5-436a-a441-3baf57391a12",
+    "title": "b.e insem timetable",
+    "body": "exam",
+    "date": "June 2026",
+    "created_at": "2026-06-30T23:29:22.856641"
+  },
+  {
+    "id": "d3ea60df-f101-4b6a-b771-1663fabb3573",
+    "title": "Library Closure — 25th June",
+    "body": "The college library will remain closed on 25th June.",
+    "date": "June 2026",
+    "department": "",
+    "created_at": "2026-06-30T19:33:47.755018",
+    "created_by": "nlp_command"
+  },
+  {
+    "id": "3e44e58e-09ee-4ed1-afc9-8eb026e016a7",
+    "title": "Exam Postponement — SE Computer",
+    "body": "Examination for SE Computer Engineering has been postponed. Please check updated schedule.",
+    "date": "June 2026",
+    "department": "SE Computer",
+    "created_at": "2026-06-18T16:12:36.374606",
+    "created_by": "nlp_command"
+  },
+  {
+    "id": "750c82b8-5174-46f0-b61f-ddc46425aeb3",
+    "title": "College Closure — Independence Day",
+    "body": "The college will remain closed on 15th August in observance of Independence Day.",
+    "date": "August 2026",
+    "department": "",
+    "created_at": "2026-06-07T00:46:04.763097",
+    "created_by": "nlp_command"
+  },
+  {
+    "id": "150635a8-10e1-40d0-a9f4-a3e89bce8e74",
+    "title": "Library Closure — 25th June",
+    "body": "The college library will remain closed on 25th June.",
+    "date": "June 2026",
+    "department": "",
+    "created_at": "2026-06-07T00:28:58.513574",
+    "created_by": "nlp_command"
+  },
+  {
+    "id": "da8c499c-afa0-4ffc-ab45-b86cc5345085",
+    "title": "Industry Expert Lecture Series",
+    "body": "Renowned experts from leading tech companies share insights on emerging technologies.",
+    "date": "February 2026",
+    "created_at": "2026-06-07T00:28:58.513574"
+  },
+  {
+    "id": "be64634a-818d-4dd1-bf8c-fbac922b9247",
+    "title": "Hackathon Winners Announced",
+    "body": "PVPIT students won first place in the national-level coding hackathon.",
+    "date": "January 2026",
+    "created_at": "2026-06-07T00:28:58.513574"
+  }
+]

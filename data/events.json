@@ -1,0 +1,78 @@
+[
+  {
+    "id": "8cbe0327-c4aa-4554-bbc6-b40077e2d2d1",
+    "title": "solution developers recruiting",
+    "description": "",
+    "event_date": "",
+    "category": "Technical",
+    "photos": [
+      {
+        "filename": "18d452c85dcc49b39123cf7e85a23c92_image1.jpeg",
+        "url": "/uploads/18d452c85dcc49b39123cf7e85a23c92_image1.jpeg",
+        "mime": "image/jpeg"
+      }
+    ],
+    "created_at": "2026-06-30T23:30:05.361421",
+    "created_by": "admin"
+  },
+  {
+    "id": "d3f72646-9119-4f1e-840e-ebd4e55368e7",
+    "title": "PVPIT Tech TItans Robotics Team",
+    "description": "Proud moment! Our PVPIT Robotics Team represented our college at DD Robocon 2024 and successfully qualified for Stage 2 with a perfect score of 100/100 in Stage 1.",
+    "event_date": "",
+    "category": "General",
+    "photos": [
+      {
+        "filename": "55a3ee9c23064594ad034d57d6ea05cc_image3.jpeg",
+        "url": "/uploads/55a3ee9c23064594ad034d57d6ea05cc_image3.jpeg",
+        "mime": "image/jpeg"
+      },
+      {
+        "filename": "60e4dd9a37024865bc178707e8fdef30_image2.jpeg",
+        "url": "/uploads/60e4dd9a37024865bc178707e8fdef30_image2.jpeg",
+        "mime": "image/jpeg"
+      }
+    ],
+    "created_at": "2026-06-29T23:55:45.325340",
+    "created_by": "admin",
+    "updated_at": "2026-06-30T11:51:29.196955"
+  },
+  {
+    "id": "cbf385e3-6d14-434b-ba7e-8c06428ec422",
+    "title": "Pvpit Padma Arts Circle",
+    "description": "",
+    "event_date": "",
+    "category": "Cultural",
+    "photos": [
+      {
+        "filename": "5776c479c320443fb6201659d8e5130d_image4.jpeg",
+        "url": "/uploads/5776c479c320443fb6201659d8e5130d_image4.jpeg",
+        "mime": "image/jpeg"
+      },
+      {
+        "filename": "97a5b6ab8e454ddbb57e45ab4cf983f4_image5.jpeg",
+        "url": "/uploads/97a5b6ab8e454ddbb57e45ab4cf983f4_image5.jpeg",
+        "mime": "image/jpeg"
+      }
+    ],
+    "created_at": "2026-06-29T23:38:36.398577",
+    "created_by": "admin",
+    "updated_at": "2026-06-30T11:52:55.491108"
+  },
+  {
+    "id": "274d890e-b94b-436f-81a1-eaa86b2ec056",
+    "title": "Tech Rhythm 2k26",
+    "description": "",
+    "event_date": "2026-06-17",
+    "category": "Technical",
+    "photos": [
+      {
+        "filename": "ffaf6a1e6d924144bf011ce089638e41_image0.jpeg",
+        "url": "/uploads/ffaf6a1e6d924144bf011ce089638e41_image0.jpeg",
+        "mime": "image/jpeg"
+      }
+    ],
+    "created_at": "2026-06-29T23:28:31.991809",
+    "created_by": "admin"
+  }
+]
