@@ -1,0 +1,17 @@
+flask
+flask-cors
+gunicorn
+groq
+python-dotenv
+sentence-transformers
+faiss-cpu
+requests
+beautifulsoup4
+numpy
+pdfplumber
+apscheduler
+# Selenium scraper dependencies
+selenium
+webdriver-manager
+urllib3
+reportlab
